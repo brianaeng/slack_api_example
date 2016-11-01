@@ -1,0 +1,1587 @@
+👽  week13$ curl http://www.yahoo.com
+<HTML>
+<HEAD>
+<TITLE>Document Has Moved</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Document Has Moved</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The document you requested has moved to a new location.  The new location is "https://www.yahoo.com/".
+</B></FONT>
+<HR>
+</BODY>
+👽  week13$ curl https://www.googleapis.com/books/v1/volumes?q=rowling
+{
+ "kind": "books#volumes",
+ "totalItems": 991,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "7bmW-U3w8d8C",
+   "etag": "/L8Lmh+v4BA",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/7bmW-U3w8d8C",
+   "volumeInfo": {
+    "title": "Who Is J.K. Rowling?",
+    "authors": [
+     "Pam Pollack",
+     "Meg Belviso"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2012-08-02",
+    "description": "Everyone loves Harry Potter. Now kids can learn about Harry's creator! In 1995, on a four-hour-delayed train from Manchester to London, J. K. Rowling conceived of the idea of a boy wizard named Harry Potter. Upon arriving in London, she began immediately writing the first book in the saga. Rowling's true-life, rags-to-riches story is as compelling as the world of Hogwarts that she created. This biography details not only Rowling's life and her love of literature but the story behind the creation of a modern classic. From the Trade Paperback edition.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781101575628"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "110157562X"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 112,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Nonfiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "0.4.4.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=7bmW-U3w8d8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=7bmW-U3w8d8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=7bmW-U3w8d8C&printsec=frontcover&dq=rowling&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=7bmW-U3w8d8C&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-7bmW-U3w8d8C"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 5.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 5.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=7bmW-U3w8d8C&rdid=book-7bmW-U3w8d8C&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5990000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 5990000.0,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Who_Is_J_K_Rowling-sample-epub.acsm?id=7bmW-U3w8d8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=7bmW-U3w8d8C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This biography details not only Rowling&#39;s life and her love of literature but the story behind the creation of a modern classic. From the Trade Paperback edition."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "a7iuAL4XQ2UC",
+   "etag": "ySZhuJBpC2I",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/a7iuAL4XQ2UC",
+   "volumeInfo": {
+    "title": "The Casual Vacancy",
+    "authors": [
+     "J. K. Rowling"
+    ],
+    "publisher": "Little, Brown",
+    "publishedDate": "2012-09-27",
+    "description": "A big novel about a small town... When Barry Fairbrother dies in his early forties, the town of Pagford is left in shock. Pagford is, seemingly, an English idyll, with a cobbled market square and an ancient abbey, but what lies behind the pretty façade is a town at war. Rich at war with poor, teenagers at war with their parents, wives at war with their husbands, teachers at war with their pupils...Pagford is not what it first seems. And the empty seat left by Barry on the parish council soon becomes the catalyst for the biggest war the town has yet seen. Who will triumph in an election fraught with passion, duplicity, and unexpected revelations? A big novel about a small town, The Casual Vacancy is J.K. Rowling's first novel for adults. It is the work of a storyteller like no other.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780316228558"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0316228559"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 512,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.0,
+    "ratingsCount": 866,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.18.21.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=a7iuAL4XQ2UC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=a7iuAL4XQ2UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=a7iuAL4XQ2UC&printsec=frontcover&dq=rowling&hl=&cd=2&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=a7iuAL4XQ2UC&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-a7iuAL4XQ2UC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=a7iuAL4XQ2UC&rdid=book-a7iuAL4XQ2UC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/The_Casual_Vacancy-sample-epub.acsm?id=a7iuAL4XQ2UC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=a7iuAL4XQ2UC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Who will triumph in an election fraught with passion, duplicity, and unexpected revelations? A big novel about a small town, The Casual Vacancy is J.K. Rowling&#39;s first novel for adults. It is the work of a storyteller like no other."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "tcSMCwAAQBAJ",
+   "etag": "g2f9AcwU13o",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/tcSMCwAAQBAJ",
+   "volumeInfo": {
+    "title": "Harry Potter and the Cursed Child – Parts One and Two (Special Rehearsal Edition)",
+    "authors": [
+     "J.K. Rowling",
+     "John Tiffany",
+     "Jack Thorne"
+    ],
+    "publisher": "Pottermore",
+    "publishedDate": "2016-07-31",
+    "description": "Based on an original new story by J.K. Rowling, Jack Thorne and John Tiffany, a new play by Jack Thorne, Harry Potter and the Cursed Child is the eighth story in the Harry Potter series and the first official Harry Potter story to be presented on stage. The play received its world premiere in London’s West End on 30th July 2016. It was always difficult being Harry Potter and it isn’t much easier now that he is an overworked employee of the Ministry of Magic, a husband and father of three school-age children. While Harry grapples with a past that refuses to stay where it belongs, his youngest son Albus must struggle with the weight of a family legacy he never wanted. As past and present fuse ominously, both father and son learn the uncomfortable truth: sometimes, darkness comes from unexpected places.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781781107041"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1781107041"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 320,
+    "printType": "BOOK",
+    "categories": [
+     "Drama"
+    ],
+    "averageRating": 4.5,
+    "ratingsCount": 11,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.2.2.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=tcSMCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=tcSMCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=tcSMCwAAQBAJ&printsec=frontcover&dq=rowling&hl=&cd=3&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=tcSMCwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-tcSMCwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 14.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 14.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=tcSMCwAAQBAJ&rdid=book-tcSMCwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.499E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.499E7,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Harry_Potter_and_the_Cursed_Child_Parts-sample-epub.acsm?id=tcSMCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Harry_Potter_and_the_Cursed_Child_Parts-sample-pdf.acsm?id=tcSMCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=tcSMCwAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Based on an original new story by J.K. Rowling, Jack Thorne and John Tiffany, a new play by Jack Thorne, Harry Potter and the Cursed Child is the eighth story in the Harry Potter series and the first official Harry Potter story to be ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "V-xB355T7C8C",
+   "etag": "sGPsVHxeVXw",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/V-xB355T7C8C",
+   "volumeInfo": {
+    "title": "J. K. Rowling",
+    "authors": [
+     "Colleen A. Sexton"
+    ],
+    "publisher": "First Avenue Editions",
+    "publishedDate": "2007-09-01",
+    "description": "Developed with the A&E Television Networks, this engrossing series offers an accessible examination of some of the world's most popular and influential people from history, entertainment, and current events.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780822587491"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0822587491"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 112,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Nonfiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 4,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.1.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=V-xB355T7C8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=V-xB355T7C8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=V-xB355T7C8C&printsec=frontcover&dq=rowling&hl=&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=V-xB355T7C8C&dq=rowling&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/J_K_Rowling.html?hl=&id=V-xB355T7C8C"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/J_K_Rowling-sample-epub.acsm?id=V-xB355T7C8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=V-xB355T7C8C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Developed with the A&amp;E Television Networks, this engrossing series offers an accessible examination of some of the world&#39;s most popular and influential people from history, entertainment, and current events."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "7WZSQJ6aAwEC",
+   "etag": "0JA2Xi4TmZM",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/7WZSQJ6aAwEC",
+   "volumeInfo": {
+    "title": "J. K. Rowling",
+    "subtitle": "The Wizard Behind Harry Potter",
+    "authors": [
+     "Marc Shapiro"
+    ],
+    "publisher": "Macmillan",
+    "publishedDate": "2007-05-15",
+    "description": "Celebrates the life and work of J.K. Rowling, and provides answers to such questions as \"What are her feelings about the Harry Potter saga finally ending?\" and \"What's the latest on the top-secret writing projects that will follow the Harry Potter books?\"",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0312376979"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780312376970"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 274,
+    "printType": "BOOK",
+    "categories": [
+     "Biography & Autobiography"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 4,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=7WZSQJ6aAwEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=7WZSQJ6aAwEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=7WZSQJ6aAwEC&printsec=frontcover&dq=rowling&hl=&cd=5&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=7WZSQJ6aAwEC&dq=rowling&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/J_K_Rowling.html?hl=&id=7WZSQJ6aAwEC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=7WZSQJ6aAwEC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Celebrates the life and work of J.K. Rowling, and provides answers to such questions as &quot;What are her feelings about the Harry Potter saga finally ending?&quot; and &quot;What&#39;s the latest on the top-secret writing projects that will follow the Harry ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "wrOQLV6xB-wC",
+   "etag": "VLAB/0TIcS4",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/wrOQLV6xB-wC",
+   "volumeInfo": {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "authors": [
+     "J.K. Rowling"
+    ],
+    "publisher": "Pottermore",
+    "publishedDate": "2015-12-08",
+    "description": "\"Turning the envelope over, his hand trembling, Harry saw a purple wax seal bearing a coat of arms; a lion, an eagle, a badger and a snake surrounding a large letter 'H'.\" Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781781100486"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1781100489"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 309,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Fiction"
+    ],
+    "averageRating": 4.5,
+    "ratingsCount": 307,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "2.13.11.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=wrOQLV6xB-wC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=wrOQLV6xB-wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=wrOQLV6xB-wC&printsec=frontcover&dq=rowling&hl=&cd=6&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=wrOQLV6xB-wC&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-wrOQLV6xB-wC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 8.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 8.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=wrOQLV6xB-wC&rdid=book-wrOQLV6xB-wC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 8990000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 8990000.0,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Harry_Potter_and_the_Sorcerer_s_Stone-sample-epub.acsm?id=wrOQLV6xB-wC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Harry_Potter_and_the_Sorcerer_s_Stone-sample-pdf.acsm?id=wrOQLV6xB-wC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=wrOQLV6xB-wC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "&quot;Turning the envelope over, his hand trembling, Harry saw a purple wax seal bearing a coat of arms; a lion, an eagle, a badger and a snake surrounding a large letter &#39;H&#39;.&quot; Harry Potter has never even heard of Hogwarts when the letters start ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "GJgbW9c9mpwC",
+   "etag": "SCthkm+ihv0",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/GJgbW9c9mpwC",
+   "volumeInfo": {
+    "title": "J.K. Rowling",
+    "subtitle": "A Biography",
+    "authors": [
+     "Connie Ann Kirk"
+    ],
+    "publisher": "Greenwood Publishing Group",
+    "publishedDate": "2003-01-01",
+    "description": "This unofficial biographical study of J. K. Rowling invites fans and critics alike to take a close look at the person behind the phenomenon.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0313322058"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780313322051"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 141,
+    "printType": "BOOK",
+    "categories": [
+     "Biography & Autobiography"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 6,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.1.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=GJgbW9c9mpwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=GJgbW9c9mpwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=GJgbW9c9mpwC&printsec=frontcover&dq=rowling&hl=&cd=7&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=GJgbW9c9mpwC&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-GJgbW9c9mpwC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 38.95,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 31.16,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=GJgbW9c9mpwC&rdid=book-GJgbW9c9mpwC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 3.895E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.116E7,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/J_K_Rowling-sample-epub.acsm?id=GJgbW9c9mpwC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/J_K_Rowling-sample-pdf.acsm?id=GJgbW9c9mpwC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=GJgbW9c9mpwC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This unofficial biographical study of J. K. Rowling invites fans and critics alike to take a close look at the person behind the phenomenon."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "fWqBWw5QYAMC",
+   "etag": "FkIL4L6pI4s",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/fWqBWw5QYAMC",
+   "volumeInfo": {
+    "title": "J.K. Rowling",
+    "subtitle": "Creator of Harry Potter",
+    "authors": [
+     "Cath Senker"
+    ],
+    "publisher": "The Rosen Publishing Group",
+    "publishedDate": "2011-01",
+    "description": "Readers will learn about J.K. Rowlings's childhood in England and the creation of the Harry Potter series.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "1448832888"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781448832880"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 32,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Nonfiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=fWqBWw5QYAMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=fWqBWw5QYAMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=fWqBWw5QYAMC&printsec=frontcover&dq=rowling&hl=&cd=8&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=fWqBWw5QYAMC&dq=rowling&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/J_K_Rowling.html?hl=&id=fWqBWw5QYAMC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=fWqBWw5QYAMC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Readers will learn about J.K. Rowlings&#39;s childhood in England and the creation of the Harry Potter series."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "WzUkCza_0Q8C",
+   "etag": "ftR5e2dzqGw",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/WzUkCza_0Q8C",
+   "volumeInfo": {
+    "title": "J.K. Rowling",
+    "authors": [
+     "William Compson"
+    ],
+    "publisher": "The Rosen Publishing Group",
+    "publishedDate": "2003",
+    "description": "Discusses the life, novels, and writing habits of J.K. Rowling, author of the popular \"Harry Potter\" novels.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0823937747"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780823937745"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 112,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Nonfiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.3.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=WzUkCza_0Q8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=WzUkCza_0Q8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=WzUkCza_0Q8C&printsec=frontcover&dq=rowling&hl=&cd=9&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=WzUkCza_0Q8C&dq=rowling&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/J_K_Rowling.html?hl=&id=WzUkCza_0Q8C"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/J_K_Rowling-sample-epub.acsm?id=WzUkCza_0Q8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=WzUkCza_0Q8C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Discusses the life, novels, and writing habits of J.K. Rowling, author of the popular &quot;Harry Potter&quot; novels."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "evuwdDLfAyYC",
+   "etag": "c5jV+TIGnpI",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/evuwdDLfAyYC",
+   "volumeInfo": {
+    "title": "The Cuckoo's Calling",
+    "authors": [
+     "Robert Galbraith"
+    ],
+    "publisher": "Mulholland Books",
+    "publishedDate": "2013-04-30",
+    "description": "A brilliant debut mystery in a classic vein: Detective Cormoran Strike investigates a supermodel's suicide. After losing his leg to a land mine in Afghanistan, Cormoran Strike is barely scraping by as a private investigator. Strike is down to one client, and creditors are calling. He has also just broken up with his longtime girlfriend and is living in his office. Then John Bristow walks through his door with an amazing story: His sister, thelegendary supermodel Lula Landry, known to her friends as the Cuckoo, famously fell to her death a few months earlier. The police ruled it a suicide, but John refuses to believe that. The case plunges Strike into the world of multimillionaire beauties, rock-star boyfriends, and desperate designers, and it introduces him to every variety of pleasure, enticement, seduction, and delusion known to man. You may think you know detectives, but you've never met one quite like Strike. You may think you know about the wealthy and famous, but you've never seen them under an investigation like this. Introducing Cormoran Strike, this is the acclaimed first crime novel by J.K. Rowling, writing under the pseudonym Robert Galbraith.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780316206860"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0316206865"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 464,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 2837,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.21.20.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=evuwdDLfAyYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=evuwdDLfAyYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=evuwdDLfAyYC&printsec=frontcover&dq=rowling&hl=&cd=10&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=evuwdDLfAyYC&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-evuwdDLfAyYC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=evuwdDLfAyYC&rdid=book-evuwdDLfAyYC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/The_Cuckoo_s_Calling-sample-epub.acsm?id=evuwdDLfAyYC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=evuwdDLfAyYC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Introducing Cormoran Strike, this is the acclaimed first crime novel by J.K. Rowling, writing under the pseudonym Robert Galbraith."
+   }
+  }
+ ]
+}
+👽  week13$ git clone https://github.com/brianaeng/slack_api_example.git
+Cloning into 'slack_api_example'...
+remote: Counting objects: 231, done.
+remote: Compressing objects: 100% (127/127), done.
+remote: Total 231 (delta 100), reused 224 (delta 93), pack-reused 0
+Receiving objects: 100% (231/231), 43.90 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (100/100), done.
+Checking connectivity... done.
+👽  week13$ cd slack_api_example/
+👽  slack_api_example (master)$ bundle install
+Fetching gem metadata from https://rubygems.org/...........
+Fetching version metadata from https://rubygems.org/..
+Fetching dependency metadata from https://rubygems.org/.
+Using rake 11.3.0
+Using i18n 0.7.0
+Using json 1.8.3
+Using minitest 5.9.1
+Using thread_safe 0.3.5
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile2 2.1.0
+Using rack 1.6.4
+Using mime-types-data 3.2016.0521
+Using arel 6.0.3
+Using awesome_print 1.7.0
+Using babel-source 5.8.35
+Using execjs 2.7.0
+Using coderay 1.1.1
+Using debug_inspector 0.0.2
+Using byebug 9.0.6
+Using coffee-script-source 1.10.0
+Using thor 0.19.1
+Using concurrent-ruby 1.0.2
+Using dotenv 2.1.1
+Using sass 3.4.22
+Using multi_xml 0.5.5
+Using multi_json 1.12.1
+Using turbolinks-source 5.0.0
+Using bundler 1.13.5
+Using tilt 2.0.5
+Using sqlite3 1.3.12
+Using faker 1.6.6
+Using rdoc 4.2.2
+Using tzinfo 1.2.2
+Using nokogiri 1.6.8.1
+Using rack-test 0.6.3
+Using mime-types 3.1
+Using babel-transpiler 0.7.0
+Installing uglifier 3.0.3
+Using better_errors 2.1.1
+Using binding_of_caller 0.7.2
+Using coffee-script 2.4.1
+Using sprockets 3.7.0
+Using httparty 0.14.0
+Using turbolinks 5.0.1
+Using sdoc 0.4.2
+Using activesupport 4.2.7
+Using loofah 2.0.3
+Using mail 2.6.4
+Using sprockets-es6 0.9.2
+Using rails-deprecated_sanitizer 1.0.3
+Using globalid 0.3.7
+Using activemodel 4.2.7
+Using jbuilder 2.6.0
+Using spring 2.0.0
+Using rails-html-sanitizer 1.0.3
+Using rails-dom-testing 1.0.7
+Using activejob 4.2.7
+Using activerecord 4.2.7
+Using actionview 4.2.7
+Using actionpack 4.2.7
+Using actionmailer 4.2.7
+Using railties 4.2.7
+Using sprockets-rails 3.2.0
+Using coffee-rails 4.1.1
+Using dotenv-rails 2.1.1
+Using foundation-rails 6.2.4.0
+Using jquery-rails 4.2.1
+Using jquery-turbolinks 2.1.0
+Using rails 4.2.7
+Using sass-rails 5.0.6
+Using web-console 2.3.0
+Bundle complete! 19 Gemfile dependencies, 69 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+👽  slack_api_example (master)$ rails console
+Running via Spring preloader in process 1791
+Loading development environment (Rails 4.2.7)
+2.3.1 :001 > Slack_Api_Wrapper.list_channels
+NameError: uninitialized constant Slack_Api_Wrapper
+	from (irb):1
+	from /Users/brianaeng/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /Users/brianaeng/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /Users/brianaeng/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /Users/brianaeng/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /Users/brianaeng/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /Users/brianaeng/ada/week13/slack_api_example/bin/rails:9:in `<top (required)>'
+	from /Users/brianaeng/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Users/brianaeng/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :002 > Slack_Api_Wrapper.list_channels
+NameError: uninitialized constant Slack_Api_Wrapper
+	from (irb):2
+	from /Users/brianaeng/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /Users/brianaeng/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /Users/brianaeng/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /Users/brianaeng/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /Users/brianaeng/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /Users/brianaeng/ada/week13/slack_api_example/bin/rails:9:in `<top (required)>'
+	from /Users/brianaeng/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Users/brianaeng/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :003 > Slack_Api_Wrapper.list_channels
+NameError: uninitialized constant Slack_Api_Wrapper
+	from (irb):3
+	from /Users/brianaeng/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /Users/brianaeng/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /Users/brianaeng/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /Users/brianaeng/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /Users/brianaeng/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /Users/brianaeng/ada/week13/slack_api_example/bin/rails:9:in `<top (required)>'
+	from /Users/brianaeng/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Users/brianaeng/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :004 > exit
+👽  slack_api_example (master *)$ rails console
+Running via Spring preloader in process 1839
+Loading development environment (Rails 4.2.7)
+2.3.1 :001 > Slack_Api_Wrapper.list_channels
+ => #<HTTParty::Response:0x7fd2f2e57348 parsed_response={"ok"=>true, "channels"=>[{"id"=>"C14UN1PV2", "name"=>"ada-announcements", "is_channel"=>true, "created"=>1461948067, "creator"=>"U14K14WFQ", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U14K14WFQ", "U14UYC5A8", "U1A0NHGF3", "U1A0W92LT", "U1A1A6CJG", "U1A1F3KLN", "U1A1G49L4", "U1A1HA8AY", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1LP83H", "U1A1N5QHE", "U1A1NEYKZ", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A1WSY4F", "U1A1Y8205", "U1A1YKDK3", "U1A20PA8J", "U1A22A1EW", "U1A22HVA9", "U1A23UX0W", "U1A253SDT", "U1A25CARX", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A2J4L15", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814", "U1ADEHZ4N", "U1AHDAW2Y", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1CSNMPJ8", "U1HBK18AJ", "U1SST7S4A", "U1V0KH83E", "U1Y9S4JN9", "U22MVAB9T", "U262FKE4D"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"For ada-wide announcements.", "creator"=>"U14K14WFQ", "last_set"=>1461948067}, "num_members"=>57}, {"id"=>"C2TVCHYAY", "name"=>"adiemaitenanceinsomni", "is_channel"=>true, "created"=>1477411353, "creator"=>"U1A2ARXLJ", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A2ARXLJ", "U1A37NAA0"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"slack with adies who can't stay asleep", "creator"=>"U1A2ARXLJ", "last_set"=>1477411355}, "num_members"=>2}, {"id"=>"C2U08MM1T", "name"=>"adieonsetnsomnia", "is_channel"=>true, "created"=>1477411320, "creator"=>"U1A2ARXLJ", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A22HVA9", "U1A2ARXLJ"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"slack with other Adies who can't fall asleep", "creator"=>"U1A2ARXLJ", "last_set"=>1477411321}, "num_members"=>2}, {"id"=>"C2M169BGB", "name"=>"affect-conf", "is_channel"=>true, "created"=>1475950658, "creator"=>"U1A2CRAFM", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U14K14WFQ", "U1A1U86N8", "U1A2CRAFM", "U262FKE4D"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Sharing info/thoughts/slides from Affect!", "creator"=>"U1A2CRAFM", "last_set"=>1475950659}, "num_members"=>4}, {"id"=>"C2HNCA7FS", "name"=>"c6-laptop-gift", "is_channel"=>true, "created"=>1475176512, "creator"=>"U1A44DT9D", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1KMZ4G", "U1A1LP2S3", "U1A1V41M4", "U1A1VQBNV", "U1A1Y8205", "U1A1YKDK3", "U1A22A1EW", "U1A22HVA9", "U1A253SDT", "U1A2CRAFM", "U1A2J4L15", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1BS0P3U0"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Give back to the community by helping future Adies!", "creator"=>"U1A44DT9D", "last_set"=>1475176513}, "num_members"=>16}, {"id"=>"C2K9SFEUU", "name"=>"climbing", "is_channel"=>true, "created"=>1475611207, "creator"=>"U1A1LP2S3", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1LP2S3", "U1A25CARX", "U1A26SG4A", "U1A2E9MDM", "U1A2SASTH", "U1A7QR22F", "U1HBK18AJ"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"organizing climbing trips and talking about climbing!", "creator"=>"U1A1LP2S3", "last_set"=>1475611208}, "num_members"=>7}, {"id"=>"C20SFPD0R", "name"=>"cooking", "is_channel"=>true, "created"=>1471010237, "creator"=>"U1A2CRAFM", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1F3KLN", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1NEYKZ", "U1A1YKDK3", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A2U9SMT", "U1A7QR22F", "U1A8E0UE4", "U1AHDAW2Y"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Share about cooking, meal-planning, etc!", "creator"=>"U1A2CRAFM", "last_set"=>1471010238}, "num_members"=>13}, {"id"=>"C24MYBFQU", "name"=>"cs-fundamentals", "is_channel"=>true, "created"=>1472083101, "creator"=>"U14K14WFQ", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U14K14WFQ", "U1A0W92LT", "U1A1A6CJG", "U1A1F3KLN", "U1A1G49L4", "U1A1HA8AY", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1LP83H", "U1A1N5QHE", "U1A1NEYKZ", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A1WSY4F", "U1A1Y8205", "U1A1YKDK3", "U1A20PA8J", "U1A22A1EW", "U1A22HVA9", "U1A23UX0W", "U1A253SDT", "U1A25CARX", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A2J4L15", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814", "U1ADEHZ4N", "U1AHDAW2Y", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1CSNMPJ8", "U1HBK18AJ", "U1V0KH83E", "U1Y9S4JN9", "U22MVAB9T", "U262FKE4D"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Chat about CS Fundamentals Curriculum", "creator"=>"U14K14WFQ", "last_set"=>1472083280}, "num_members"=>54}, {"id"=>"C28FZ0T2N", "name"=>"cuteoverload", "is_channel"=>true, "created"=>1473142783, "creator"=>"U1A1NEYKZ", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1F3KLN", "U1A1KRML0", "U1A1LP2S3", "U1A1NEYKZ", "U1A1YKDK3", "U1A2ARXLJ", "U1A2CRAFM", "U1A2GRBKL", "U1AHDAW2Y", "U1HBK18AJ"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"The cute, bring it! (A place for cat pictures and other such awesome.)", "creator"=>"U1A1NEYKZ", "last_set"=>1473142783}, "num_members"=>10}, {"id"=>"C20KVKTME", "name"=>"eastside_meetups", "is_channel"=>true, "created"=>1470950818, "creator"=>"U1A2B95BP", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U1A1LGMJL", "U1A26472A", "U1A2B95BP", "U1A3HAKUM", "U1ACV3814", "U1ADEHZ4N", "U1B734UJV", "U1BS0P3U0", "U1HBK18AJ"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"for eastside classmates to connect and hang out.", "creator"=>"U1A2B95BP", "last_set"=>1470950818}, "num_members"=>9}, {"id"=>"C1WQVJGJF", "name"=>"escaperoom", "is_channel"=>true, "created"=>1470018672, "creator"=>"U1A1F3KLN", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1F3KLN", "U1A1KMZ4G", "U1A1KRML0", "U1A1LP2S3", "U1A22HVA9", "U1A2E9MDM", "U1A2SASTH", "U1A3MBR9Q"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Organizing at least one trip to a local Escape Room!", "creator"=>"U1A1F3KLN", "last_set"=>1470018795}, "num_members"=>8}, {"id"=>"C1HMXK5NY", "name"=>"flatmates", "is_channel"=>true, "created"=>1466117760, "creator"=>"U1A44DT9D", "is_archived"=>true, "is_general"=>false, "is_member"=>false, "members"=>[], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Thinking of sharing housing to try and find a cheaper option per person? This is your channel.", "creator"=>"U1A44DT9D", "last_set"=>1466117760}, "num_members"=>0}, {"id"=>"C14HT63S7", "name"=>"general", "is_channel"=>true, "created"=>1461863745, "creator"=>"U14K14WFQ", "is_archived"=>false, "is_general"=>true, "is_member"=>true, "members"=>["U14K14WFQ", "U14UYC5A8", "U1A0NHGF3", "U1A0W92LT", "U1A1A6CJG", "U1A1F3KLN", "U1A1G49L4", "U1A1HA8AY", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1LP83H", "U1A1N5QHE", "U1A1NEYKZ", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A1WSY4F", "U1A1XJY1Y", "U1A1Y8205", "U1A1YKDK3", "U1A20PA8J", "U1A22A1EW", "U1A22HVA9", "U1A23UX0W", "U1A253SDT", "U1A25CARX", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A2J4L15", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814", "U1ADEHZ4N", "U1AHDAW2Y", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1CSNMPJ8", "U1HBK18AJ", "U1SST7S4A", "U1V0KH83E", "U1Y9S4JN9", "U22MVAB9T", "U22PUMTGX", "U262FKE4D"], "topic"=>{"value"=>"Company-wide announcements and work-based matters", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"This channel is for team-wide communication and announcements. All team members are in this channel.", "creator"=>"", "last_set"=>0}, "num_members"=>58}, {"id"=>"C1U3MJKBQ", "name"=>"jumpstart-live", "is_channel"=>true, "created"=>1469153131, "creator"=>"U14K14WFQ", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U14K14WFQ", "U1A1A6CJG", "U1A1F3KLN", "U1A1KRML0", "U1A1WSY4F", "U1A23UX0W", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A8E0UE4", "U1AHDAW2Y", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1CSNMPJ8", "U1V0KH83E"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "num_members"=>16}, {"id"=>"C2QGJ5XT3", "name"=>"lumberjanes", "is_channel"=>true, "created"=>1476744841, "creator"=>"U1A1U86N8", "is_archived"=>true, "is_general"=>false, "is_member"=>false, "members"=>[], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Organization and Optimization of Betsy Project now called “Beardsy\"", "creator"=>"U1A1U86N8", "last_set"=>1476744920}, "num_members"=>0}, {"id"=>"C24AFSTJ5", "name"=>"partyplanningcmitee", "is_channel"=>true, "created"=>1472003701, "creator"=>"U1A2J4L15", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1F3KLN", "U1A1NEYKZ", "U1A1YKDK3", "U1A253SDT", "U1A2GRBKL", "U1A2J4L15", "U1A2U9SMT", "U1A3MBR9Q", "U1APDN19T"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Party Planning Committee-slash-\nCommittee to Plan Parties", "creator"=>"U1A2J4L15", "last_set"=>1472003702}, "num_members"=>9}, {"id"=>"C1VKKHTTM", "name"=>"pragmaticbookclub", "is_channel"=>true, "created"=>1469637293, "creator"=>"U1A1U86N8", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1F3KLN", "U1A1G49L4", "U1A1KRML0", "U1A1U86N8", "U1A253SDT", "U1A26472A", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1ACV3814"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"For those interested in starting a book club around the book “The Pragmatic Programmer\"", "creator"=>"U1A1U86N8", "last_set"=>1469637293}, "num_members"=>10}, {"id"=>"C1LP6TJ9H", "name"=>"pre-ada-homework", "is_channel"=>true, "created"=>1467075530, "creator"=>"U1A1N5QHE", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U14K14WFQ", "U1A1A6CJG", "U1A1F3KLN", "U1A1KRML0", "U1A1V41M4", "U1A253SDT", "U1A25CARX", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2SASTH", "U1A3MBR9Q", "U1ACV3814", "U1ADEHZ4N", "U1AHDAW2Y", "U1HBK18AJ", "U1SST7S4A", "U1V0KH83E", "U1Y9S4JN9"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"self-explanatory", "creator"=>"U1A1N5QHE", "last_set"=>1467075531}, "num_members"=>19}, {"id"=>"C22A9LP9A", "name"=>"rainy-day-memories", "is_channel"=>true, "created"=>1471462265, "creator"=>"U1A1KMZ4G", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1F3KLN", "U1A1KMZ4G", "U1A1KRML0", "U1A1NEYKZ", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A7QR22F"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Pictures from the good days", "creator"=>"U1A1KMZ4G", "last_set"=>1471462266}, "num_members"=>8}, {"id"=>"C14K8TJHM", "name"=>"random", "is_channel"=>true, "created"=>1461863745, "creator"=>"U14K14WFQ", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U14K14WFQ", "U14UYC5A8", "U1A0NHGF3", "U1A0W92LT", "U1A1A6CJG", "U1A1F3KLN", "U1A1G49L4", "U1A1HA8AY", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1LP83H", "U1A1N5QHE", "U1A1NEYKZ", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A1WSY4F", "U1A1XJY1Y", "U1A1Y8205", "U1A1YKDK3", "U1A20PA8J", "U1A22A1EW", "U1A22HVA9", "U1A23UX0W", "U1A253SDT", "U1A25CARX", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A2J4L15", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814", "U1ADEHZ4N", "U1AHDAW2Y", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1CSNMPJ8", "U1HBK18AJ", "U1SST7S4A", "U1V0KH83E", "U1Y9S4JN9", "U22MVAB9T", "U22PUMTGX", "U262FKE4D"], "topic"=>{"value"=>"Non-work banter and water cooler conversation", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"A place for non-work-related flimflam, faffing, hodge-podge or jibber-jabber you'd prefer to keep out of more focused work-related channels.", "creator"=>"", "last_set"=>0}, "num_members"=>58}, {"id"=>"C1A1AE1L4", "name"=>"relocation-help", "is_channel"=>true, "created"=>1463606366, "creator"=>"U14K14WFQ", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U14K14WFQ", "U14UYC5A8", "U1A0W92LT", "U1A1F3KLN", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1U86N8", "U1A1XJY1Y", "U1A1Y8205", "U1A20PA8J", "U1A23UX0W", "U1A25CARX", "U1A2E9MDM", "U1A2SASTH", "U1A3MBR9Q", "U1A6G920N", "U1ADEHZ4N", "U1AHDAW2Y", "U1B734UJV"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Help our transplants figure out Seattle!", "creator"=>"U14K14WFQ", "last_set"=>1463606367}, "num_members"=>19}, {"id"=>"C2DRJQREX", "name"=>"resource-gathering", "is_channel"=>true, "created"=>1474403116, "creator"=>"U1A37NAA0", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U1A0W92LT", "U1A1F3KLN", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP83H", "U1A1NEYKZ", "U1A1U86N8", "U1A1VQBNV", "U1A1YKDK3", "U1A20PA8J", "U1A253SDT", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2J4L15", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1APDN19T"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Create a Google doc with all the resources we've had so far. Please help me!", "creator"=>"U1A37NAA0", "last_set"=>1474403117}, "num_members"=>25}, {"id"=>"C2E8WS128", "name"=>"resourcegathering", "is_channel"=>true, "created"=>1474474450, "creator"=>"U1APDN19T", "is_archived"=>true, "is_general"=>false, "is_member"=>false, "members"=>[], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "num_members"=>0}, {"id"=>"C27CY2H7D", "name"=>"running", "is_channel"=>true, "created"=>1472760600, "creator"=>"U1A1N5QHE", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1N5QHE", "U1A2B95BP", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "num_members"=>5}, {"id"=>"C1PPLERB3", "name"=>"saychiz", "is_channel"=>true, "created"=>1467920015, "creator"=>"U1HBK18AJ", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A253SDT", "U1A25CARX", "U1A2B95BP", "U1HBK18AJ"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Saychiz practice workshop for Chicktech", "creator"=>"U1HBK18AJ", "last_set"=>1467920015}, "num_members"=>4}, {"id"=>"C1CSHM072", "name"=>"seattlemeetups", "is_channel"=>true, "created"=>1464678637, "creator"=>"U1A44DT9D", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U1A0W92LT", "U1A1F3KLN", "U1A1G49L4", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1LP83H", "U1A1NEYKZ", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A1WSY4F", "U1A1Y8205", "U1A1YKDK3", "U1A22A1EW", "U1A22HVA9", "U1A23UX0W", "U1A253SDT", "U1A25CARX", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814", "U1AHDAW2Y", "U1APDN19T", "U1BS0P3U0", "U1HBK18AJ", "U1SST7S4A"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"A place to organize meetups in the Seattle area!", "creator"=>"U1A44DT9D", "last_set"=>1464678638}, "num_members"=>42}, {"id"=>"C22AJVC4Q", "name"=>"team_gold", "is_channel"=>true, "created"=>1471463207, "creator"=>"U1A1U86N8", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1U86N8", "U1A3MBR9Q", "U1CSNMPJ8"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"to work on fancying Dragon", "creator"=>"U1A1U86N8", "last_set"=>1471463208}, "num_members"=>3}, {"id"=>"C1ZD3TD35", "name"=>"tech-events", "is_channel"=>true, "created"=>1470706276, "creator"=>"U1A1NEYKZ", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U1A0W92LT", "U1A1F3KLN", "U1A1G49L4", "U1A1HA8AY", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1LP83H", "U1A1N5QHE", "U1A1NEYKZ", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A1WSY4F", "U1A1Y8205", "U1A1YKDK3", "U1A20PA8J", "U1A22A1EW", "U1A22HVA9", "U1A25CARX", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2J4L15", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814", "U1AHDAW2Y", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1HBK18AJ", "U262FKE4D"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Channel to share upcoming tech events!", "creator"=>"U1A1NEYKZ", "last_set"=>1470706277}, "num_members"=>44}, {"id"=>"C2V4RG11C", "name"=>"test-api-brackets", "is_channel"=>true, "created"=>1477589339, "creator"=>"U22MVAB9T", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A2J4L15", "U22MVAB9T"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "num_members"=>2}, {"id"=>"C2V4F5W1Y", "name"=>"test-api-parens", "is_channel"=>true, "created"=>1477586537, "creator"=>"U1V0KH83E", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U1A1KRML0", "U1A1N5QHE", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A20PA8J", "U1A22HVA9", "U1A23UX0W", "U1A253SDT", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2J4L15", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A8E0UE4", "U1ACV3814", "U1ADEHZ4N", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1V0KH83E", "U1Y9S4JN9"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"This Channel is for testing the Slack API", "creator"=>"U1V0KH83E", "last_set"=>1477586538}, "num_members"=>25}]}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"content-type"=>["application/json; charset=utf-8"], "content-length"=>["3071"], "connection"=>["close"], "access-control-allow-origin"=>["*"], "cache-control"=>["private, no-cache, no-store, must-revalidate"], "content-security-policy"=>["referrer no-referrer;"], "date"=>["Mon, 31 Oct 2016 19:55:36 GMT"], "expires"=>["Mon, 26 Jul 1997 05:00:00 GMT"], "pragma"=>["no-cache"], "server"=>["Apache"], "strict-transport-security"=>["max-age=31536000; includeSubDomains; preload"], "vary"=>["Accept-Encoding"], "x-accepted-oauth-scopes"=>["channels:read,read"], "x-content-type-options"=>["nosniff"], "x-oauth-scopes"=>["identify,read,post,client,apps"], "x-slack-backend"=>["h"], "x-slack-req-id"=>["f5fe734f-84ca-475a-8403-3da9f1c7fd2d"], "x-xss-protection"=>["0"], "x-cache"=>["Miss from cloudfront"], "via"=>["1.1 558206a0d447192d28c1f88bb720a348.cloudfront.net (CloudFront)"], "x-amz-cf-id"=>["-e4GE1AoUsU-TJythyILKesg3Cei2GG-3BAZrcwD3zrUX2qL9dkMkQ=="]}> 
+2.3.1 :002 > exit
+👽  slack_api_example (master *)$ rails c
+Running via Spring preloader in process 1858
+Loading development environment (Rails 4.2.7)
+2.3.1 :001 > Slack_Api_Wrapper.list_channels
+ => #<HTTParty::Response:0x7fc2e1ebc098 parsed_response={"ok"=>true, "channels"=>[{"id"=>"C14UN1PV2", "name"=>"ada-announcements", "is_channel"=>true, "created"=>1461948067, "creator"=>"U14K14WFQ", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U14K14WFQ", "U14UYC5A8", "U1A0NHGF3", "U1A0W92LT", "U1A1A6CJG", "U1A1F3KLN", "U1A1G49L4", "U1A1HA8AY", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1LP83H", "U1A1N5QHE", "U1A1NEYKZ", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A1WSY4F", "U1A1Y8205", "U1A1YKDK3", "U1A20PA8J", "U1A22A1EW", "U1A22HVA9", "U1A23UX0W", "U1A253SDT", "U1A25CARX", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A2J4L15", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814", "U1ADEHZ4N", "U1AHDAW2Y", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1CSNMPJ8", "U1HBK18AJ", "U1SST7S4A", "U1V0KH83E", "U1Y9S4JN9", "U22MVAB9T", "U262FKE4D"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"For ada-wide announcements.", "creator"=>"U14K14WFQ", "last_set"=>1461948067}, "num_members"=>57}, {"id"=>"C2TVCHYAY", "name"=>"adiemaitenanceinsomni", "is_channel"=>true, "created"=>1477411353, "creator"=>"U1A2ARXLJ", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A2ARXLJ", "U1A37NAA0"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"slack with adies who can't stay asleep", "creator"=>"U1A2ARXLJ", "last_set"=>1477411355}, "num_members"=>2}, {"id"=>"C2U08MM1T", "name"=>"adieonsetnsomnia", "is_channel"=>true, "created"=>1477411320, "creator"=>"U1A2ARXLJ", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A22HVA9", "U1A2ARXLJ"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"slack with other Adies who can't fall asleep", "creator"=>"U1A2ARXLJ", "last_set"=>1477411321}, "num_members"=>2}, {"id"=>"C2M169BGB", "name"=>"affect-conf", "is_channel"=>true, "created"=>1475950658, "creator"=>"U1A2CRAFM", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U14K14WFQ", "U1A1U86N8", "U1A2CRAFM", "U262FKE4D"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Sharing info/thoughts/slides from Affect!", "creator"=>"U1A2CRAFM", "last_set"=>1475950659}, "num_members"=>4}, {"id"=>"C2HNCA7FS", "name"=>"c6-laptop-gift", "is_channel"=>true, "created"=>1475176512, "creator"=>"U1A44DT9D", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1KMZ4G", "U1A1LP2S3", "U1A1V41M4", "U1A1VQBNV", "U1A1Y8205", "U1A1YKDK3", "U1A22A1EW", "U1A22HVA9", "U1A253SDT", "U1A2CRAFM", "U1A2J4L15", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1BS0P3U0"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Give back to the community by helping future Adies!", "creator"=>"U1A44DT9D", "last_set"=>1475176513}, "num_members"=>16}, {"id"=>"C2K9SFEUU", "name"=>"climbing", "is_channel"=>true, "created"=>1475611207, "creator"=>"U1A1LP2S3", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1LP2S3", "U1A25CARX", "U1A26SG4A", "U1A2E9MDM", "U1A2SASTH", "U1A7QR22F", "U1HBK18AJ"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"organizing climbing trips and talking about climbing!", "creator"=>"U1A1LP2S3", "last_set"=>1475611208}, "num_members"=>7}, {"id"=>"C20SFPD0R", "name"=>"cooking", "is_channel"=>true, "created"=>1471010237, "creator"=>"U1A2CRAFM", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1F3KLN", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1NEYKZ", "U1A1YKDK3", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A2U9SMT", "U1A7QR22F", "U1A8E0UE4", "U1AHDAW2Y"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Share about cooking, meal-planning, etc!", "creator"=>"U1A2CRAFM", "last_set"=>1471010238}, "num_members"=>13}, {"id"=>"C24MYBFQU", "name"=>"cs-fundamentals", "is_channel"=>true, "created"=>1472083101, "creator"=>"U14K14WFQ", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U14K14WFQ", "U1A0W92LT", "U1A1A6CJG", "U1A1F3KLN", "U1A1G49L4", "U1A1HA8AY", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1LP83H", "U1A1N5QHE", "U1A1NEYKZ", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A1WSY4F", "U1A1Y8205", "U1A1YKDK3", "U1A20PA8J", "U1A22A1EW", "U1A22HVA9", "U1A23UX0W", "U1A253SDT", "U1A25CARX", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A2J4L15", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814", "U1ADEHZ4N", "U1AHDAW2Y", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1CSNMPJ8", "U1HBK18AJ", "U1V0KH83E", "U1Y9S4JN9", "U22MVAB9T", "U262FKE4D"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Chat about CS Fundamentals Curriculum", "creator"=>"U14K14WFQ", "last_set"=>1472083280}, "num_members"=>54}, {"id"=>"C28FZ0T2N", "name"=>"cuteoverload", "is_channel"=>true, "created"=>1473142783, "creator"=>"U1A1NEYKZ", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1F3KLN", "U1A1KRML0", "U1A1LP2S3", "U1A1NEYKZ", "U1A1YKDK3", "U1A2ARXLJ", "U1A2CRAFM", "U1A2GRBKL", "U1AHDAW2Y", "U1HBK18AJ"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"The cute, bring it! (A place for cat pictures and other such awesome.)", "creator"=>"U1A1NEYKZ", "last_set"=>1473142783}, "num_members"=>10}, {"id"=>"C20KVKTME", "name"=>"eastside_meetups", "is_channel"=>true, "created"=>1470950818, "creator"=>"U1A2B95BP", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U1A1LGMJL", "U1A26472A", "U1A2B95BP", "U1A3HAKUM", "U1ACV3814", "U1ADEHZ4N", "U1B734UJV", "U1BS0P3U0", "U1HBK18AJ"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"for eastside classmates to connect and hang out.", "creator"=>"U1A2B95BP", "last_set"=>1470950818}, "num_members"=>9}, {"id"=>"C1WQVJGJF", "name"=>"escaperoom", "is_channel"=>true, "created"=>1470018672, "creator"=>"U1A1F3KLN", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1F3KLN", "U1A1KMZ4G", "U1A1KRML0", "U1A1LP2S3", "U1A22HVA9", "U1A2E9MDM", "U1A2SASTH", "U1A3MBR9Q"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Organizing at least one trip to a local Escape Room!", "creator"=>"U1A1F3KLN", "last_set"=>1470018795}, "num_members"=>8}, {"id"=>"C1HMXK5NY", "name"=>"flatmates", "is_channel"=>true, "created"=>1466117760, "creator"=>"U1A44DT9D", "is_archived"=>true, "is_general"=>false, "is_member"=>false, "members"=>[], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Thinking of sharing housing to try and find a cheaper option per person? This is your channel.", "creator"=>"U1A44DT9D", "last_set"=>1466117760}, "num_members"=>0}, {"id"=>"C14HT63S7", "name"=>"general", "is_channel"=>true, "created"=>1461863745, "creator"=>"U14K14WFQ", "is_archived"=>false, "is_general"=>true, "is_member"=>true, "members"=>["U14K14WFQ", "U14UYC5A8", "U1A0NHGF3", "U1A0W92LT", "U1A1A6CJG", "U1A1F3KLN", "U1A1G49L4", "U1A1HA8AY", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1LP83H", "U1A1N5QHE", "U1A1NEYKZ", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A1WSY4F", "U1A1XJY1Y", "U1A1Y8205", "U1A1YKDK3", "U1A20PA8J", "U1A22A1EW", "U1A22HVA9", "U1A23UX0W", "U1A253SDT", "U1A25CARX", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A2J4L15", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814", "U1ADEHZ4N", "U1AHDAW2Y", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1CSNMPJ8", "U1HBK18AJ", "U1SST7S4A", "U1V0KH83E", "U1Y9S4JN9", "U22MVAB9T", "U22PUMTGX", "U262FKE4D"], "topic"=>{"value"=>"Company-wide announcements and work-based matters", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"This channel is for team-wide communication and announcements. All team members are in this channel.", "creator"=>"", "last_set"=>0}, "num_members"=>58}, {"id"=>"C1U3MJKBQ", "name"=>"jumpstart-live", "is_channel"=>true, "created"=>1469153131, "creator"=>"U14K14WFQ", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U14K14WFQ", "U1A1A6CJG", "U1A1F3KLN", "U1A1KRML0", "U1A1WSY4F", "U1A23UX0W", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A8E0UE4", "U1AHDAW2Y", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1CSNMPJ8", "U1V0KH83E"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "num_members"=>16}, {"id"=>"C2QGJ5XT3", "name"=>"lumberjanes", "is_channel"=>true, "created"=>1476744841, "creator"=>"U1A1U86N8", "is_archived"=>true, "is_general"=>false, "is_member"=>false, "members"=>[], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Organization and Optimization of Betsy Project now called “Beardsy\"", "creator"=>"U1A1U86N8", "last_set"=>1476744920}, "num_members"=>0}, {"id"=>"C24AFSTJ5", "name"=>"partyplanningcmitee", "is_channel"=>true, "created"=>1472003701, "creator"=>"U1A2J4L15", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1F3KLN", "U1A1NEYKZ", "U1A1YKDK3", "U1A253SDT", "U1A2GRBKL", "U1A2J4L15", "U1A2U9SMT", "U1A3MBR9Q", "U1APDN19T"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Party Planning Committee-slash-\nCommittee to Plan Parties", "creator"=>"U1A2J4L15", "last_set"=>1472003702}, "num_members"=>9}, {"id"=>"C1VKKHTTM", "name"=>"pragmaticbookclub", "is_channel"=>true, "created"=>1469637293, "creator"=>"U1A1U86N8", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1F3KLN", "U1A1G49L4", "U1A1KRML0", "U1A1U86N8", "U1A253SDT", "U1A26472A", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1ACV3814"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"For those interested in starting a book club around the book “The Pragmatic Programmer\"", "creator"=>"U1A1U86N8", "last_set"=>1469637293}, "num_members"=>10}, {"id"=>"C1LP6TJ9H", "name"=>"pre-ada-homework", "is_channel"=>true, "created"=>1467075530, "creator"=>"U1A1N5QHE", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U14K14WFQ", "U1A1A6CJG", "U1A1F3KLN", "U1A1KRML0", "U1A1V41M4", "U1A253SDT", "U1A25CARX", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2SASTH", "U1A3MBR9Q", "U1ACV3814", "U1ADEHZ4N", "U1AHDAW2Y", "U1HBK18AJ", "U1SST7S4A", "U1V0KH83E", "U1Y9S4JN9"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"self-explanatory", "creator"=>"U1A1N5QHE", "last_set"=>1467075531}, "num_members"=>19}, {"id"=>"C22A9LP9A", "name"=>"rainy-day-memories", "is_channel"=>true, "created"=>1471462265, "creator"=>"U1A1KMZ4G", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1F3KLN", "U1A1KMZ4G", "U1A1KRML0", "U1A1NEYKZ", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A7QR22F"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Pictures from the good days", "creator"=>"U1A1KMZ4G", "last_set"=>1471462266}, "num_members"=>8}, {"id"=>"C14K8TJHM", "name"=>"random", "is_channel"=>true, "created"=>1461863745, "creator"=>"U14K14WFQ", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U14K14WFQ", "U14UYC5A8", "U1A0NHGF3", "U1A0W92LT", "U1A1A6CJG", "U1A1F3KLN", "U1A1G49L4", "U1A1HA8AY", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1LP83H", "U1A1N5QHE", "U1A1NEYKZ", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A1WSY4F", "U1A1XJY1Y", "U1A1Y8205", "U1A1YKDK3", "U1A20PA8J", "U1A22A1EW", "U1A22HVA9", "U1A23UX0W", "U1A253SDT", "U1A25CARX", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A2J4L15", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814", "U1ADEHZ4N", "U1AHDAW2Y", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1CSNMPJ8", "U1HBK18AJ", "U1SST7S4A", "U1V0KH83E", "U1Y9S4JN9", "U22MVAB9T", "U22PUMTGX", "U262FKE4D"], "topic"=>{"value"=>"Non-work banter and water cooler conversation", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"A place for non-work-related flimflam, faffing, hodge-podge or jibber-jabber you'd prefer to keep out of more focused work-related channels.", "creator"=>"", "last_set"=>0}, "num_members"=>58}, {"id"=>"C1A1AE1L4", "name"=>"relocation-help", "is_channel"=>true, "created"=>1463606366, "creator"=>"U14K14WFQ", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U14K14WFQ", "U14UYC5A8", "U1A0W92LT", "U1A1F3KLN", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1U86N8", "U1A1XJY1Y", "U1A1Y8205", "U1A20PA8J", "U1A23UX0W", "U1A25CARX", "U1A2E9MDM", "U1A2SASTH", "U1A3MBR9Q", "U1A6G920N", "U1ADEHZ4N", "U1AHDAW2Y", "U1B734UJV"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Help our transplants figure out Seattle!", "creator"=>"U14K14WFQ", "last_set"=>1463606367}, "num_members"=>19}, {"id"=>"C2DRJQREX", "name"=>"resource-gathering", "is_channel"=>true, "created"=>1474403116, "creator"=>"U1A37NAA0", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U1A0W92LT", "U1A1F3KLN", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP83H", "U1A1NEYKZ", "U1A1U86N8", "U1A1VQBNV", "U1A1YKDK3", "U1A20PA8J", "U1A253SDT", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2J4L15", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1APDN19T"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Create a Google doc with all the resources we've had so far. Please help me!", "creator"=>"U1A37NAA0", "last_set"=>1474403117}, "num_members"=>25}, {"id"=>"C2E8WS128", "name"=>"resourcegathering", "is_channel"=>true, "created"=>1474474450, "creator"=>"U1APDN19T", "is_archived"=>true, "is_general"=>false, "is_member"=>false, "members"=>[], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "num_members"=>0}, {"id"=>"C27CY2H7D", "name"=>"running", "is_channel"=>true, "created"=>1472760600, "creator"=>"U1A1N5QHE", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1N5QHE", "U1A2B95BP", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "num_members"=>5}, {"id"=>"C1PPLERB3", "name"=>"saychiz", "is_channel"=>true, "created"=>1467920015, "creator"=>"U1HBK18AJ", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A253SDT", "U1A25CARX", "U1A2B95BP", "U1HBK18AJ"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Saychiz practice workshop for Chicktech", "creator"=>"U1HBK18AJ", "last_set"=>1467920015}, "num_members"=>4}, {"id"=>"C1CSHM072", "name"=>"seattlemeetups", "is_channel"=>true, "created"=>1464678637, "creator"=>"U1A44DT9D", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U1A0W92LT", "U1A1F3KLN", "U1A1G49L4", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1LP83H", "U1A1NEYKZ", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A1WSY4F", "U1A1Y8205", "U1A1YKDK3", "U1A22A1EW", "U1A22HVA9", "U1A23UX0W", "U1A253SDT", "U1A25CARX", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814", "U1AHDAW2Y", "U1APDN19T", "U1BS0P3U0", "U1HBK18AJ", "U1SST7S4A"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"A place to organize meetups in the Seattle area!", "creator"=>"U1A44DT9D", "last_set"=>1464678638}, "num_members"=>42}, {"id"=>"C22AJVC4Q", "name"=>"team_gold", "is_channel"=>true, "created"=>1471463207, "creator"=>"U1A1U86N8", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1U86N8", "U1A3MBR9Q", "U1CSNMPJ8"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"to work on fancying Dragon", "creator"=>"U1A1U86N8", "last_set"=>1471463208}, "num_members"=>3}, {"id"=>"C1ZD3TD35", "name"=>"tech-events", "is_channel"=>true, "created"=>1470706276, "creator"=>"U1A1NEYKZ", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U1A0W92LT", "U1A1F3KLN", "U1A1G49L4", "U1A1HA8AY", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1LP83H", "U1A1N5QHE", "U1A1NEYKZ", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A1WSY4F", "U1A1Y8205", "U1A1YKDK3", "U1A20PA8J", "U1A22A1EW", "U1A22HVA9", "U1A25CARX", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2J4L15", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814", "U1AHDAW2Y", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1HBK18AJ", "U262FKE4D"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Channel to share upcoming tech events!", "creator"=>"U1A1NEYKZ", "last_set"=>1470706277}, "num_members"=>44}, {"id"=>"C2V4RG11C", "name"=>"test-api-brackets", "is_channel"=>true, "created"=>1477589339, "creator"=>"U22MVAB9T", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A2J4L15", "U22MVAB9T"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "num_members"=>2}, {"id"=>"C2V4F5W1Y", "name"=>"test-api-parens", "is_channel"=>true, "created"=>1477586537, "creator"=>"U1V0KH83E", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U1A1KRML0", "U1A1N5QHE", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A20PA8J", "U1A22HVA9", "U1A23UX0W", "U1A253SDT", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2J4L15", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A8E0UE4", "U1ACV3814", "U1ADEHZ4N", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1V0KH83E", "U1Y9S4JN9"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"This Channel is for testing the Slack API", "creator"=>"U1V0KH83E", "last_set"=>1477586538}, "num_members"=>25}]}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"content-type"=>["application/json; charset=utf-8"], "content-length"=>["3071"], "connection"=>["close"], "access-control-allow-origin"=>["*"], "cache-control"=>["private, no-cache, no-store, must-revalidate"], "content-security-policy"=>["referrer no-referrer;"], "date"=>["Mon, 31 Oct 2016 19:57:22 GMT"], "expires"=>["Mon, 26 Jul 1997 05:00:00 GMT"], "pragma"=>["no-cache"], "server"=>["Apache"], "strict-transport-security"=>["max-age=31536000; includeSubDomains; preload"], "vary"=>["Accept-Encoding"], "x-accepted-oauth-scopes"=>["channels:read,read"], "x-content-type-options"=>["nosniff"], "x-oauth-scopes"=>["identify,read,post,client,apps"], "x-slack-backend"=>["h"], "x-slack-req-id"=>["d3d94412-5e56-4468-b666-341d10bf291a"], "x-xss-protection"=>["0"], "x-cache"=>["Miss from cloudfront"], "via"=>["1.1 bb9848ce4551a5b4618de502ae18859f.cloudfront.net (CloudFront)"], "x-amz-cf-id"=>["fRuvjtQthQUwZvYvrjGRRi2Xav11PyCtR6-28ok7CKEH9wJ_Cfb0yQ=="]}> 
+2.3.1 :002 > exit
+👽  slack_api_example (master *)$ rails -v
+Rails 4.2.7
+👽  slack_api_example (master *)$ rails c
+Running via Spring preloader in process 1961
+Loading development environment (Rails 4.2.7)
+2.3.1 :001 > bob = Slack_Api_Wrapper.list_channels
+ => #<HTTParty::Response:0x7fc2e2375b20 parsed_response={"ok"=>true, "channels"=>[{"id"=>"C14UN1PV2", "name"=>"ada-announcements", "is_channel"=>true, "created"=>1461948067, "creator"=>"U14K14WFQ", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U14K14WFQ", "U14UYC5A8", "U1A0NHGF3", "U1A0W92LT", "U1A1A6CJG", "U1A1F3KLN", "U1A1G49L4", "U1A1HA8AY", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1LP83H", "U1A1N5QHE", "U1A1NEYKZ", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A1WSY4F", "U1A1Y8205", "U1A1YKDK3", "U1A20PA8J", "U1A22A1EW", "U1A22HVA9", "U1A23UX0W", "U1A253SDT", "U1A25CARX", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A2J4L15", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814", "U1ADEHZ4N", "U1AHDAW2Y", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1CSNMPJ8", "U1HBK18AJ", "U1SST7S4A", "U1V0KH83E", "U1Y9S4JN9", "U22MVAB9T", "U262FKE4D"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"For ada-wide announcements.", "creator"=>"U14K14WFQ", "last_set"=>1461948067}, "num_members"=>57}, {"id"=>"C2TVCHYAY", "name"=>"adiemaitenanceinsomni", "is_channel"=>true, "created"=>1477411353, "creator"=>"U1A2ARXLJ", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A2ARXLJ", "U1A37NAA0"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"slack with adies who can't stay asleep", "creator"=>"U1A2ARXLJ", "last_set"=>1477411355}, "num_members"=>2}, {"id"=>"C2U08MM1T", "name"=>"adieonsetnsomnia", "is_channel"=>true, "created"=>1477411320, "creator"=>"U1A2ARXLJ", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A22HVA9", "U1A2ARXLJ"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"slack with other Adies who can't fall asleep", "creator"=>"U1A2ARXLJ", "last_set"=>1477411321}, "num_members"=>2}, {"id"=>"C2M169BGB", "name"=>"affect-conf", "is_channel"=>true, "created"=>1475950658, "creator"=>"U1A2CRAFM", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U14K14WFQ", "U1A1U86N8", "U1A2CRAFM", "U262FKE4D"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Sharing info/thoughts/slides from Affect!", "creator"=>"U1A2CRAFM", "last_set"=>1475950659}, "num_members"=>4}, {"id"=>"C2HNCA7FS", "name"=>"c6-laptop-gift", "is_channel"=>true, "created"=>1475176512, "creator"=>"U1A44DT9D", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1KMZ4G", "U1A1LP2S3", "U1A1V41M4", "U1A1VQBNV", "U1A1Y8205", "U1A1YKDK3", "U1A22A1EW", "U1A22HVA9", "U1A253SDT", "U1A2CRAFM", "U1A2J4L15", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1BS0P3U0"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Give back to the community by helping future Adies!", "creator"=>"U1A44DT9D", "last_set"=>1475176513}, "num_members"=>16}, {"id"=>"C2K9SFEUU", "name"=>"climbing", "is_channel"=>true, "created"=>1475611207, "creator"=>"U1A1LP2S3", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1LP2S3", "U1A25CARX", "U1A26SG4A", "U1A2E9MDM", "U1A2SASTH", "U1A7QR22F", "U1HBK18AJ"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"organizing climbing trips and talking about climbing!", "creator"=>"U1A1LP2S3", "last_set"=>1475611208}, "num_members"=>7}, {"id"=>"C20SFPD0R", "name"=>"cooking", "is_channel"=>true, "created"=>1471010237, "creator"=>"U1A2CRAFM", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1F3KLN", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1NEYKZ", "U1A1YKDK3", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A2U9SMT", "U1A7QR22F", "U1A8E0UE4", "U1AHDAW2Y"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Share about cooking, meal-planning, etc!", "creator"=>"U1A2CRAFM", "last_set"=>1471010238}, "num_members"=>13}, {"id"=>"C24MYBFQU", "name"=>"cs-fundamentals", "is_channel"=>true, "created"=>1472083101, "creator"=>"U14K14WFQ", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U14K14WFQ", "U1A0W92LT", "U1A1A6CJG", "U1A1F3KLN", "U1A1G49L4", "U1A1HA8AY", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1LP83H", "U1A1N5QHE", "U1A1NEYKZ", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A1WSY4F", "U1A1Y8205", "U1A1YKDK3", "U1A20PA8J", "U1A22A1EW", "U1A22HVA9", "U1A23UX0W", "U1A253SDT", "U1A25CARX", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A2J4L15", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814", "U1ADEHZ4N", "U1AHDAW2Y", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1CSNMPJ8", "U1HBK18AJ", "U1V0KH83E", "U1Y9S4JN9", "U22MVAB9T", "U262FKE4D"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Chat about CS Fundamentals Curriculum", "creator"=>"U14K14WFQ", "last_set"=>1472083280}, "num_members"=>54}, {"id"=>"C28FZ0T2N", "name"=>"cuteoverload", "is_channel"=>true, "created"=>1473142783, "creator"=>"U1A1NEYKZ", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1F3KLN", "U1A1KRML0", "U1A1LP2S3", "U1A1NEYKZ", "U1A1YKDK3", "U1A2ARXLJ", "U1A2CRAFM", "U1A2GRBKL", "U1AHDAW2Y", "U1HBK18AJ"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"The cute, bring it! (A place for cat pictures and other such awesome.)", "creator"=>"U1A1NEYKZ", "last_set"=>1473142783}, "num_members"=>10}, {"id"=>"C20KVKTME", "name"=>"eastside_meetups", "is_channel"=>true, "created"=>1470950818, "creator"=>"U1A2B95BP", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U1A1LGMJL", "U1A26472A", "U1A2B95BP", "U1A3HAKUM", "U1ACV3814", "U1ADEHZ4N", "U1B734UJV", "U1BS0P3U0", "U1HBK18AJ"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"for eastside classmates to connect and hang out.", "creator"=>"U1A2B95BP", "last_set"=>1470950818}, "num_members"=>9}, {"id"=>"C1WQVJGJF", "name"=>"escaperoom", "is_channel"=>true, "created"=>1470018672, "creator"=>"U1A1F3KLN", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1F3KLN", "U1A1KMZ4G", "U1A1KRML0", "U1A1LP2S3", "U1A22HVA9", "U1A2E9MDM", "U1A2SASTH", "U1A3MBR9Q"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Organizing at least one trip to a local Escape Room!", "creator"=>"U1A1F3KLN", "last_set"=>1470018795}, "num_members"=>8}, {"id"=>"C1HMXK5NY", "name"=>"flatmates", "is_channel"=>true, "created"=>1466117760, "creator"=>"U1A44DT9D", "is_archived"=>true, "is_general"=>false, "is_member"=>false, "members"=>[], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Thinking of sharing housing to try and find a cheaper option per person? This is your channel.", "creator"=>"U1A44DT9D", "last_set"=>1466117760}, "num_members"=>0}, {"id"=>"C14HT63S7", "name"=>"general", "is_channel"=>true, "created"=>1461863745, "creator"=>"U14K14WFQ", "is_archived"=>false, "is_general"=>true, "is_member"=>true, "members"=>["U14K14WFQ", "U14UYC5A8", "U1A0NHGF3", "U1A0W92LT", "U1A1A6CJG", "U1A1F3KLN", "U1A1G49L4", "U1A1HA8AY", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1LP83H", "U1A1N5QHE", "U1A1NEYKZ", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A1WSY4F", "U1A1XJY1Y", "U1A1Y8205", "U1A1YKDK3", "U1A20PA8J", "U1A22A1EW", "U1A22HVA9", "U1A23UX0W", "U1A253SDT", "U1A25CARX", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A2J4L15", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814", "U1ADEHZ4N", "U1AHDAW2Y", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1CSNMPJ8", "U1HBK18AJ", "U1SST7S4A", "U1V0KH83E", "U1Y9S4JN9", "U22MVAB9T", "U22PUMTGX", "U262FKE4D"], "topic"=>{"value"=>"Company-wide announcements and work-based matters", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"This channel is for team-wide communication and announcements. All team members are in this channel.", "creator"=>"", "last_set"=>0}, "num_members"=>58}, {"id"=>"C1U3MJKBQ", "name"=>"jumpstart-live", "is_channel"=>true, "created"=>1469153131, "creator"=>"U14K14WFQ", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U14K14WFQ", "U1A1A6CJG", "U1A1F3KLN", "U1A1KRML0", "U1A1WSY4F", "U1A23UX0W", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A8E0UE4", "U1AHDAW2Y", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1CSNMPJ8", "U1V0KH83E"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "num_members"=>16}, {"id"=>"C2QGJ5XT3", "name"=>"lumberjanes", "is_channel"=>true, "created"=>1476744841, "creator"=>"U1A1U86N8", "is_archived"=>true, "is_general"=>false, "is_member"=>false, "members"=>[], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Organization and Optimization of Betsy Project now called “Beardsy\"", "creator"=>"U1A1U86N8", "last_set"=>1476744920}, "num_members"=>0}, {"id"=>"C24AFSTJ5", "name"=>"partyplanningcmitee", "is_channel"=>true, "created"=>1472003701, "creator"=>"U1A2J4L15", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1F3KLN", "U1A1NEYKZ", "U1A1YKDK3", "U1A253SDT", "U1A2GRBKL", "U1A2J4L15", "U1A2U9SMT", "U1A3MBR9Q", "U1APDN19T"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Party Planning Committee-slash-\nCommittee to Plan Parties", "creator"=>"U1A2J4L15", "last_set"=>1472003702}, "num_members"=>9}, {"id"=>"C1VKKHTTM", "name"=>"pragmaticbookclub", "is_channel"=>true, "created"=>1469637293, "creator"=>"U1A1U86N8", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1F3KLN", "U1A1G49L4", "U1A1KRML0", "U1A1U86N8", "U1A253SDT", "U1A26472A", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1ACV3814"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"For those interested in starting a book club around the book “The Pragmatic Programmer\"", "creator"=>"U1A1U86N8", "last_set"=>1469637293}, "num_members"=>10}, {"id"=>"C1LP6TJ9H", "name"=>"pre-ada-homework", "is_channel"=>true, "created"=>1467075530, "creator"=>"U1A1N5QHE", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U14K14WFQ", "U1A1A6CJG", "U1A1F3KLN", "U1A1KRML0", "U1A1V41M4", "U1A253SDT", "U1A25CARX", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2SASTH", "U1A3MBR9Q", "U1ACV3814", "U1ADEHZ4N", "U1AHDAW2Y", "U1HBK18AJ", "U1SST7S4A", "U1V0KH83E", "U1Y9S4JN9"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"self-explanatory", "creator"=>"U1A1N5QHE", "last_set"=>1467075531}, "num_members"=>19}, {"id"=>"C22A9LP9A", "name"=>"rainy-day-memories", "is_channel"=>true, "created"=>1471462265, "creator"=>"U1A1KMZ4G", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1F3KLN", "U1A1KMZ4G", "U1A1KRML0", "U1A1NEYKZ", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A7QR22F"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Pictures from the good days", "creator"=>"U1A1KMZ4G", "last_set"=>1471462266}, "num_members"=>8}, {"id"=>"C14K8TJHM", "name"=>"random", "is_channel"=>true, "created"=>1461863745, "creator"=>"U14K14WFQ", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U14K14WFQ", "U14UYC5A8", "U1A0NHGF3", "U1A0W92LT", "U1A1A6CJG", "U1A1F3KLN", "U1A1G49L4", "U1A1HA8AY", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1LP83H", "U1A1N5QHE", "U1A1NEYKZ", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A1WSY4F", "U1A1XJY1Y", "U1A1Y8205", "U1A1YKDK3", "U1A20PA8J", "U1A22A1EW", "U1A22HVA9", "U1A23UX0W", "U1A253SDT", "U1A25CARX", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A2J4L15", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814", "U1ADEHZ4N", "U1AHDAW2Y", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1CSNMPJ8", "U1HBK18AJ", "U1SST7S4A", "U1V0KH83E", "U1Y9S4JN9", "U22MVAB9T", "U22PUMTGX", "U262FKE4D"], "topic"=>{"value"=>"Non-work banter and water cooler conversation", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"A place for non-work-related flimflam, faffing, hodge-podge or jibber-jabber you'd prefer to keep out of more focused work-related channels.", "creator"=>"", "last_set"=>0}, "num_members"=>58}, {"id"=>"C1A1AE1L4", "name"=>"relocation-help", "is_channel"=>true, "created"=>1463606366, "creator"=>"U14K14WFQ", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U14K14WFQ", "U14UYC5A8", "U1A0W92LT", "U1A1F3KLN", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1U86N8", "U1A1XJY1Y", "U1A1Y8205", "U1A20PA8J", "U1A23UX0W", "U1A25CARX", "U1A2E9MDM", "U1A2SASTH", "U1A3MBR9Q", "U1A6G920N", "U1ADEHZ4N", "U1AHDAW2Y", "U1B734UJV"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Help our transplants figure out Seattle!", "creator"=>"U14K14WFQ", "last_set"=>1463606367}, "num_members"=>19}, {"id"=>"C2DRJQREX", "name"=>"resource-gathering", "is_channel"=>true, "created"=>1474403116, "creator"=>"U1A37NAA0", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U1A0W92LT", "U1A1F3KLN", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP83H", "U1A1NEYKZ", "U1A1U86N8", "U1A1VQBNV", "U1A1YKDK3", "U1A20PA8J", "U1A253SDT", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2J4L15", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1APDN19T"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Create a Google doc with all the resources we've had so far. Please help me!", "creator"=>"U1A37NAA0", "last_set"=>1474403117}, "num_members"=>25}, {"id"=>"C2E8WS128", "name"=>"resourcegathering", "is_channel"=>true, "created"=>1474474450, "creator"=>"U1APDN19T", "is_archived"=>true, "is_general"=>false, "is_member"=>false, "members"=>[], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "num_members"=>0}, {"id"=>"C27CY2H7D", "name"=>"running", "is_channel"=>true, "created"=>1472760600, "creator"=>"U1A1N5QHE", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1N5QHE", "U1A2B95BP", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "num_members"=>5}, {"id"=>"C1PPLERB3", "name"=>"saychiz", "is_channel"=>true, "created"=>1467920015, "creator"=>"U1HBK18AJ", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A253SDT", "U1A25CARX", "U1A2B95BP", "U1HBK18AJ"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Saychiz practice workshop for Chicktech", "creator"=>"U1HBK18AJ", "last_set"=>1467920015}, "num_members"=>4}, {"id"=>"C1CSHM072", "name"=>"seattlemeetups", "is_channel"=>true, "created"=>1464678637, "creator"=>"U1A44DT9D", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U1A0W92LT", "U1A1F3KLN", "U1A1G49L4", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1LP83H", "U1A1NEYKZ", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A1WSY4F", "U1A1Y8205", "U1A1YKDK3", "U1A22A1EW", "U1A22HVA9", "U1A23UX0W", "U1A253SDT", "U1A25CARX", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2GRBKL", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814", "U1AHDAW2Y", "U1APDN19T", "U1BS0P3U0", "U1HBK18AJ", "U1SST7S4A"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"A place to organize meetups in the Seattle area!", "creator"=>"U1A44DT9D", "last_set"=>1464678638}, "num_members"=>42}, {"id"=>"C22AJVC4Q", "name"=>"team_gold", "is_channel"=>true, "created"=>1471463207, "creator"=>"U1A1U86N8", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A1U86N8", "U1A3MBR9Q", "U1CSNMPJ8"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"to work on fancying Dragon", "creator"=>"U1A1U86N8", "last_set"=>1471463208}, "num_members"=>3}, {"id"=>"C1ZD3TD35", "name"=>"tech-events", "is_channel"=>true, "created"=>1470706276, "creator"=>"U1A1NEYKZ", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U1A0W92LT", "U1A1F3KLN", "U1A1G49L4", "U1A1HA8AY", "U1A1KMZ4G", "U1A1KRML0", "U1A1LGMJL", "U1A1LP2S3", "U1A1LP83H", "U1A1N5QHE", "U1A1NEYKZ", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A1WSY4F", "U1A1Y8205", "U1A1YKDK3", "U1A20PA8J", "U1A22A1EW", "U1A22HVA9", "U1A25CARX", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2CRAFM", "U1A2E9MDM", "U1A2J4L15", "U1A2SASTH", "U1A2U9SMT", "U1A37NAA0", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A6G920N", "U1A7QR22F", "U1A8E0UE4", "U1ACV3814", "U1AHDAW2Y", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1HBK18AJ", "U262FKE4D"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"Channel to share upcoming tech events!", "creator"=>"U1A1NEYKZ", "last_set"=>1470706277}, "num_members"=>44}, {"id"=>"C2V4RG11C", "name"=>"test-api-brackets", "is_channel"=>true, "created"=>1477589339, "creator"=>"U22MVAB9T", "is_archived"=>false, "is_general"=>false, "is_member"=>false, "members"=>["U1A2J4L15", "U22MVAB9T"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "num_members"=>2}, {"id"=>"C2V4F5W1Y", "name"=>"test-api-parens", "is_channel"=>true, "created"=>1477586537, "creator"=>"U1V0KH83E", "is_archived"=>false, "is_general"=>false, "is_member"=>true, "members"=>["U1A1KRML0", "U1A1N5QHE", "U1A1U86N8", "U1A1V41M4", "U1A1VQBNV", "U1A20PA8J", "U1A22HVA9", "U1A23UX0W", "U1A253SDT", "U1A26472A", "U1A26SG4A", "U1A2ARXLJ", "U1A2B95BP", "U1A2J4L15", "U1A3HAKUM", "U1A3MBR9Q", "U1A44DT9D", "U1A8E0UE4", "U1ACV3814", "U1ADEHZ4N", "U1APDN19T", "U1B734UJV", "U1BS0P3U0", "U1V0KH83E", "U1Y9S4JN9"], "topic"=>{"value"=>"", "creator"=>"", "last_set"=>0}, "purpose"=>{"value"=>"This Channel is for testing the Slack API", "creator"=>"U1V0KH83E", "last_set"=>1477586538}, "num_members"=>25}]}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"content-type"=>["application/json; charset=utf-8"], "content-length"=>["3071"], "connection"=>["close"], "access-control-allow-origin"=>["*"], "cache-control"=>["private, no-cache, no-store, must-revalidate"], "content-security-policy"=>["referrer no-referrer;"], "date"=>["Mon, 31 Oct 2016 20:10:04 GMT"], "expires"=>["Mon, 26 Jul 1997 05:00:00 GMT"], "pragma"=>["no-cache"], "server"=>["Apache"], "strict-transport-security"=>["max-age=31536000; includeSubDomains; preload"], "vary"=>["Accept-Encoding"], "x-accepted-oauth-scopes"=>["channels:read,read"], "x-content-type-options"=>["nosniff"], "x-oauth-scopes"=>["identify,read,post,client,apps"], "x-slack-backend"=>["h"], "x-slack-req-id"=>["ebf93b83-2fda-459e-8aff-6b8a937b9409"], "x-xss-protection"=>["0"], "x-cache"=>["Miss from cloudfront"], "via"=>["1.1 a2c6ecad653895742a63190a3221fbf8.cloudfront.net (CloudFront)"], "x-amz-cf-id"=>["sbaDJCOJNCrsIjnnnotuQy8ZHmN3Xi-Lht5DbRYMy4Cbhz4sUpxPzg=="]}> 
+2.3.1 :002 > exit
+👽  slack_api_example (master *)$ rails c
+Running via Spring preloader in process 2080
+Loading development environment (Rails 4.2.7)
+2.3.1 :001 > Slack_Api_Wrapper.list_channels
+ => [#<Slack_Channel:0x007fc2e2fb8f90 @name="ada-announcements", @id="C14UN1PV2">, #<Slack_Channel:0x007fc2e2fb8f68 @name="adiemaitenanceinsomni", @id="C2TVCHYAY">, #<Slack_Channel:0x007fc2e2fb8ea0 @name="adieonsetnsomnia", @id="C2U08MM1T">, #<Slack_Channel:0x007fc2e2fb8e28 @name="affect-conf", @id="C2M169BGB">, #<Slack_Channel:0x007fc2e2fb8e00 @name="c6-laptop-gift", @id="C2HNCA7FS">, #<Slack_Channel:0x007fc2e2fb8dd8 @name="climbing", @id="C2K9SFEUU">, #<Slack_Channel:0x007fc2e2fb8db0 @name="cooking", @id="C20SFPD0R">, #<Slack_Channel:0x007fc2e2fb8d88 @name="cs-fundamentals", @id="C24MYBFQU">, #<Slack_Channel:0x007fc2e2fb8d10 @name="cuteoverload", @id="C28FZ0T2N">, #<Slack_Channel:0x007fc2e2fb8ce8 @name="eastside_meetups", @id="C20KVKTME">, #<Slack_Channel:0x007fc2e2fb8cc0 @name="escaperoom", @id="C1WQVJGJF">, #<Slack_Channel:0x007fc2e2fb8c48 @name="flatmates", @id="C1HMXK5NY">, #<Slack_Channel:0x007fc2e2fb8bd0 @name="general", @id="C14HT63S7">, #<Slack_Channel:0x007fc2e2fb8b80 @name="jumpstart-live", @id="C1U3MJKBQ">, #<Slack_Channel:0x007fc2e2fb8b58 @name="lumberjanes", @id="C2QGJ5XT3">, #<Slack_Channel:0x007fc2e2fb8b08 @name="partyplanningcmitee", @id="C24AFSTJ5">, #<Slack_Channel:0x007fc2e2fb8ae0 @name="pragmaticbookclub", @id="C1VKKHTTM">, #<Slack_Channel:0x007fc2e2fb89f0 @name="pre-ada-homework", @id="C1LP6TJ9H">, #<Slack_Channel:0x007fc2e2fb89c8 @name="rainy-day-memories", @id="C22A9LP9A">, #<Slack_Channel:0x007fc2e2fb8978 @name="random", @id="C14K8TJHM">, #<Slack_Channel:0x007fc2e2fb8950 @name="relocation-help", @id="C1A1AE1L4">, #<Slack_Channel:0x007fc2e2fb88d8 @name="resource-gathering", @id="C2DRJQREX">, #<Slack_Channel:0x007fc2e2fb8860 @name="resourcegathering", @id="C2E8WS128">, #<Slack_Channel:0x007fc2e2fb8838 @name="running", @id="C27CY2H7D">, #<Slack_Channel:0x007fc2e2fb8810 @name="saychiz", @id="C1PPLERB3">, #<Slack_Channel:0x007fc2e2fb87e8 @name="seattlemeetups", @id="C1CSHM072">, #<Slack_Channel:0x007fc2e2fb8798 @name="team_gold", @id="C22AJVC4Q">, #<Slack_Channel:0x007fc2e2fb8770 @name="tech-events", @id="C1ZD3TD35">, #<Slack_Channel:0x007fc2e2fb8748 @name="test-api-brackets", @id="C2V4RG11C">, #<Slack_Channel:0x007fc2e2fb8720 @name="test-api-parens", @id="C2V4F5W1Y">] 
+2.3.1 :002 > exit
+👽  slack_api_example (master *%)$ rails c
+Running via Spring preloader in process 2106
+Loading development environment (Rails 4.2.7)
+2.3.1 :001 > Slack_Api_Wrapper.list_channels
+ => [#<Slack_Channel:0x007fc2e1d4d8b0 @name="ada-announcements", @id="C14UN1PV2">, #<Slack_Channel:0x007fc2e1d4d888 @name="adiemaitenanceinsomni", @id="C2TVCHYAY">, #<Slack_Channel:0x007fc2e1d4d860 @name="adieonsetnsomnia", @id="C2U08MM1T">, #<Slack_Channel:0x007fc2e1d4d838 @name="affect-conf", @id="C2M169BGB">, #<Slack_Channel:0x007fc2e1d4d810 @name="c6-laptop-gift", @id="C2HNCA7FS">, #<Slack_Channel:0x007fc2e1d4d7e8 @name="climbing", @id="C2K9SFEUU">, #<Slack_Channel:0x007fc2e1d4d7c0 @name="cooking", @id="C20SFPD0R">, #<Slack_Channel:0x007fc2e1d4d770 @name="cs-fundamentals", @id="C24MYBFQU">, #<Slack_Channel:0x007fc2e1d4d748 @name="cuteoverload", @id="C28FZ0T2N">, #<Slack_Channel:0x007fc2e1d4d720 @name="eastside_meetups", @id="C20KVKTME">, #<Slack_Channel:0x007fc2e1d4d6f8 @name="escaperoom", @id="C1WQVJGJF">, #<Slack_Channel:0x007fc2e1d4d6d0 @name="flatmates", @id="C1HMXK5NY">, #<Slack_Channel:0x007fc2e1d4d6a8 @name="general", @id="C14HT63S7">, #<Slack_Channel:0x007fc2e1d4d680 @name="jumpstart-live", @id="C1U3MJKBQ">, #<Slack_Channel:0x007fc2e1d4d630 @name="lumberjanes", @id="C2QGJ5XT3">, #<Slack_Channel:0x007fc2e1d4d608 @name="partyplanningcmitee", @id="C24AFSTJ5">, #<Slack_Channel:0x007fc2e1d4d5e0 @name="pragmaticbookclub", @id="C1VKKHTTM">, #<Slack_Channel:0x007fc2e1d4d5b8 @name="pre-ada-homework", @id="C1LP6TJ9H">, #<Slack_Channel:0x007fc2e1d4d590 @name="rainy-day-memories", @id="C22A9LP9A">, #<Slack_Channel:0x007fc2e1d4d568 @name="random", @id="C14K8TJHM">, #<Slack_Channel:0x007fc2e1d4d540 @name="relocation-help", @id="C1A1AE1L4">, #<Slack_Channel:0x007fc2e1d4d4f0 @name="resource-gathering", @id="C2DRJQREX">, #<Slack_Channel:0x007fc2e1d4d4c8 @name="resourcegathering", @id="C2E8WS128">, #<Slack_Channel:0x007fc2e1d4d4a0 @name="running", @id="C27CY2H7D">, #<Slack_Channel:0x007fc2e1d4d478 @name="saychiz", @id="C1PPLERB3">, #<Slack_Channel:0x007fc2e1d4d450 @name="seattlemeetups", @id="C1CSHM072">, #<Slack_Channel:0x007fc2e1d4d428 @name="team_gold", @id="C22AJVC4Q">, #<Slack_Channel:0x007fc2e1d4d400 @name="tech-events", @id="C1ZD3TD35">, #<Slack_Channel:0x007fc2e1d4d3b0 @name="test-api-brackets", @id="C2V4RG11C">, #<Slack_Channel:0x007fc2e1d4d388 @name="test-api-parens", @id="C2V4F5W1Y">] 
+2.3.1 :002 > exit
+👽  slack_api_example (master *%)$ ruby -v
+ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-darwin15]
+👽  slack_api_example (master *%)$ cd ..
+👽  week13$ rails -v
+Rails 4.2.7
+👽  week13$ ruby -v
+ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-darwin15]
+👽  week13$ cd slack_api_example/
+👽  slack_api_example (master *%)$ rails c
+Running via Spring preloader in process 2256
+Loading development environment (Rails 4.2.7)
+2.3.1 :001 > Slack_Api_Wrapper.send_message("test-api-parens", "test")
+ => #<HTTParty::Response:0x7fc2e21e4c20 parsed_response={"ok"=>true, "channel"=>"C2V4F5W1Y", "ts"=>"1477946198.000151", "message"=>{"text"=>"test", "username"=>"Slack API Tester", "bot_id"=>"B2WDWGY8M", "type"=>"message", "subtype"=>"bot_message", "ts"=>"1477946198.000151"}}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"content-type"=>["application/json; charset=utf-8"], "content-length"=>["165"], "connection"=>["close"], "access-control-allow-origin"=>["*"], "cache-control"=>["private, no-cache, no-store, must-revalidate"], "content-security-policy"=>["referrer no-referrer;"], "date"=>["Mon, 31 Oct 2016 20:36:38 GMT"], "expires"=>["Mon, 26 Jul 1997 05:00:00 GMT"], "pragma"=>["no-cache"], "server"=>["Apache"], "strict-transport-security"=>["max-age=31536000; includeSubDomains; preload"], "vary"=>["Accept-Encoding"], "x-accepted-oauth-scopes"=>["chat:write:bot,post"], "x-content-type-options"=>["nosniff"], "x-oauth-scopes"=>["identify,read,post,client,apps"], "x-slack-backend"=>["h"], "x-slack-req-id"=>["58ce0aba-1880-47c3-9a90-7f85528fd28b"], "x-xss-protection"=>["0"], "x-cache"=>["Miss from cloudfront"], "via"=>["1.1 7a37e270180aded326e7cc0b0c0e284b.cloudfront.net (CloudFront)"], "x-amz-cf-id"=>["Tpm8xl2CX1DsXtMIsBDP_8R8mcKTOCxHte1DyHz3nW3kPkVpgHPdoQ=="]}> 
+2.3.1 :002 > Slack_Api_Wrapper.send_message("test-api-parens", "sdfndskfjndskjf")
+ => #<HTTParty::Response:0x7fc2e21b6938 parsed_response={"ok"=>true, "channel"=>"C2V4F5W1Y", "ts"=>"1477946300.000163", "message"=>{"text"=>"sdfndskfjndskjf", "username"=>"Slack API Tester", "bot_id"=>"B2WDWGY8M", "type"=>"message", "subtype"=>"bot_message", "ts"=>"1477946300.000163"}}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"content-type"=>["application/json; charset=utf-8"], "content-length"=>["175"], "connection"=>["close"], "access-control-allow-origin"=>["*"], "cache-control"=>["private, no-cache, no-store, must-revalidate"], "content-security-policy"=>["referrer no-referrer;"], "date"=>["Mon, 31 Oct 2016 20:38:20 GMT"], "expires"=>["Mon, 26 Jul 1997 05:00:00 GMT"], "pragma"=>["no-cache"], "server"=>["Apache"], "strict-transport-security"=>["max-age=31536000; includeSubDomains; preload"], "vary"=>["Accept-Encoding"], "x-accepted-oauth-scopes"=>["chat:write:bot,post"], "x-content-type-options"=>["nosniff"], "x-oauth-scopes"=>["identify,read,post,client,apps"], "x-slack-backend"=>["h"], "x-slack-req-id"=>["fa844612-0d3e-49ac-90fe-a25e5f6f072b"], "x-xss-protection"=>["0"], "x-cache"=>["Miss from cloudfront"], "via"=>["1.1 6e9f3795d07071d2c388295b98037ce5.cloudfront.net (CloudFront)"], "x-amz-cf-id"=>["DFEwdtwphjmLFhqo_Qpl8sCXrOhM1jWaSJ2LGbWLPKmUKalXkYHftg=="]}> 
+2.3.1 :003 > Slack_Api_Wrapper.send_message("test-api-parens", ":moose:")
+ => #<HTTParty::Response:0x7fc2e2c91d08 parsed_response={"ok"=>true, "channel"=>"C2V4F5W1Y", "ts"=>"1477946727.000211", "message"=>{"text"=>":moose:", "username"=>"Slack API Tester", "bot_id"=>"B2WDWGY8M", "type"=>"message", "subtype"=>"bot_message", "ts"=>"1477946727.000211"}}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"content-type"=>["application/json; charset=utf-8"], "content-length"=>["168"], "connection"=>["close"], "access-control-allow-origin"=>["*"], "cache-control"=>["private, no-cache, no-store, must-revalidate"], "content-security-policy"=>["referrer no-referrer;"], "date"=>["Mon, 31 Oct 2016 20:45:27 GMT"], "expires"=>["Mon, 26 Jul 1997 05:00:00 GMT"], "pragma"=>["no-cache"], "server"=>["Apache"], "strict-transport-security"=>["max-age=31536000; includeSubDomains; preload"], "vary"=>["Accept-Encoding"], "x-accepted-oauth-scopes"=>["chat:write:bot,post"], "x-content-type-options"=>["nosniff"], "x-oauth-scopes"=>["identify,read,post,client,apps"], "x-slack-backend"=>["h"], "x-slack-req-id"=>["5c9c4c54-2193-4615-95cf-ec14d75a1194"], "x-xss-protection"=>["0"], "x-cache"=>["Miss from cloudfront"], "via"=>["1.1 4fe9b40e43a66bae996dd68268f01143.cloudfront.net (CloudFront)"], "x-amz-cf-id"=>["A0vvvxRDKp-xhiMcXFYzuDPNYvFHheXGUq_oz24_pvOs7IhULv1JpQ=="]}> 
+2.3.1 :004 > Slack_Api_Wrapper.send_message("test-api-parens", "some :koala: T messages")
+ => #<HTTParty::Response:0x7fc2e1ad6938 parsed_response={"ok"=>true, "channel"=>"C2V4F5W1Y", "ts"=>"1477946807.000218", "message"=>{"text"=>"some :koala: T messages", "username"=>"Slack API Tester", "bot_id"=>"B2WDWGY8M", "type"=>"message", "subtype"=>"bot_message", "ts"=>"1477946807.000218"}}, @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"content-type"=>["application/json; charset=utf-8"], "content-length"=>["176"], "connection"=>["close"], "access-control-allow-origin"=>["*"], "cache-control"=>["private, no-cache, no-store, must-revalidate"], "content-security-policy"=>["referrer no-referrer;"], "date"=>["Mon, 31 Oct 2016 20:46:47 GMT"], "expires"=>["Mon, 26 Jul 1997 05:00:00 GMT"], "pragma"=>["no-cache"], "server"=>["Apache"], "strict-transport-security"=>["max-age=31536000; includeSubDomains; preload"], "vary"=>["Accept-Encoding"], "x-accepted-oauth-scopes"=>["chat:write:bot,post"], "x-content-type-options"=>["nosniff"], "x-oauth-scopes"=>["identify,read,post,client,apps"], "x-slack-backend"=>["h"], "x-slack-req-id"=>["30330756-a413-4802-82e4-5cbffd4e0ca8"], "x-xss-protection"=>["0"], "x-cache"=>["Miss from cloudfront"], "via"=>["1.1 bb9848ce4551a5b4618de502ae18859f.cloudfront.net (CloudFront)"], "x-amz-cf-id"=>["X67zXXP_DJSGlAaS_nzp7GTkmPqWSVlyyEe20NL0Ai8N15FEs3YksQ=="]}> 
+2.3.1 :005 > exit
+👽  slack_api_example (master *%)$ rails s
+=> Booting WEBrick
+=> Rails 4.2.7 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+=> Ctrl-C to shutdown server
+[2016-10-31 13:50:41] INFO  WEBrick 1.3.1
+[2016-10-31 13:50:41] INFO  ruby 2.3.1 (2016-04-26) [x86_64-darwin15]
+[2016-10-31 13:50:41] INFO  WEBrick::HTTPServer#start: pid=2303 port=3000
+
+
+Started GET "/" for ::1 at 2016-10-31 13:50:45 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/brianaeng/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/templates/rails/welcome/index.html.erb (4.1ms)
+Completed 200 OK in 49ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-31 13:52:11 -0700
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+NoMethodError - undefined method `length' for nil:NilClass:
+  app/views/homepages/index.html.erb:13:in `_app_views_homepages_index_html_erb__4176516695704062961_70242778127120'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/template.rb:145:in `block in render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/notifications.rb:166:in `instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/template.rb:333:in `instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/template.rb:143:in `render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/notifications.rb:164:in `block in instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/notifications.rb:164:in `instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/renderer/template_renderer.rb:14:in `render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/renderer/renderer.rb:46:in `render_template'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/renderer/renderer.rb:27:in `render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/rendering.rb:100:in `_render_template'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/streaming.rb:217:in `_render_template'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/rendering.rb:83:in `render_to_body'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/abstract_controller/rendering.rb:25:in `render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/rendering.rb:16:in `render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/brianaeng/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activerecord-4.2.7/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/instrumentation.rb:43:in `render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/abstract_controller/base.rb:198:in `process_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/rendering.rb:10:in `process_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:117:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:505:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:81:in `run_callbacks'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/abstract_controller/callbacks.rb:19:in `process_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/rescue.rb:29:in `process_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/notifications.rb:164:in `block in instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/notifications.rb:164:in `instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activerecord-4.2.7/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/abstract_controller/base.rb:137:in `process'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/rendering.rb:30:in `process'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal.rb:196:in `dispatch'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal.rb:237:in `block in action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/routing/route_set.rb:43:in `serve'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/journey/router.rb:43:in `block in serve'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/journey/router.rb:30:in `serve'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/routing/route_set.rb:817:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/etag.rb:24:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/conditionalget.rb:25:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/flash.rb:260:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/cookies.rb:560:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activerecord-4.2.7/lib/active_record/query_cache.rb:36:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activerecord-4.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activerecord-4.2.7/lib/active_record/migration.rb:377:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:81:in `run_callbacks'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/reloader.rb:73:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/static.rb:120:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /Users/brianaeng/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/brianaeng/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/brianaeng/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/955e93439da7a764/variables" for ::1 at 2016-10-31 13:52:11 -0700
+
+
+Started GET "/" for ::1 at 2016-10-31 13:52:50 -0700
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (27.6ms)
+Completed 500 Internal Server Error in 718ms (ActiveRecord: 0.0ms)
+
+NoMethodError - undefined method `new_message_path' for #<#<Class:0x007fc553dd11c8>:0x007fc553da8d40>:
+  app/views/homepages/index.html.erb:20:in `block in _app_views_homepages_index_html_erb__4176516695704062961_70242778127120'
+  app/views/homepages/index.html.erb:14:in `_app_views_homepages_index_html_erb__4176516695704062961_70242778127120'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/template.rb:145:in `block in render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/notifications.rb:166:in `instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/template.rb:333:in `instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/template.rb:143:in `render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/notifications.rb:164:in `block in instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/notifications.rb:164:in `instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/renderer/template_renderer.rb:14:in `render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/renderer/renderer.rb:46:in `render_template'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/renderer/renderer.rb:27:in `render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/rendering.rb:100:in `_render_template'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/streaming.rb:217:in `_render_template'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/rendering.rb:83:in `render_to_body'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/abstract_controller/rendering.rb:25:in `render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/rendering.rb:16:in `render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/brianaeng/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activerecord-4.2.7/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/instrumentation.rb:43:in `render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/abstract_controller/base.rb:198:in `process_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/rendering.rb:10:in `process_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:117:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:505:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:81:in `run_callbacks'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/abstract_controller/callbacks.rb:19:in `process_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/rescue.rb:29:in `process_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/notifications.rb:164:in `block in instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/notifications.rb:164:in `instrument'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activerecord-4.2.7/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/abstract_controller/base.rb:137:in `process'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionview-4.2.7/lib/action_view/rendering.rb:30:in `process'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal.rb:196:in `dispatch'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_controller/metal.rb:237:in `block in action'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/routing/route_set.rb:43:in `serve'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/journey/router.rb:43:in `block in serve'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/journey/router.rb:30:in `serve'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/routing/route_set.rb:817:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/etag.rb:24:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/conditionalget.rb:25:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/flash.rb:260:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/cookies.rb:560:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activerecord-4.2.7/lib/active_record/query_cache.rb:36:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activerecord-4.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activerecord-4.2.7/lib/active_record/migration.rb:377:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:81:in `run_callbacks'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/reloader.rb:73:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/activesupport-4.2.7/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.7/lib/action_dispatch/middleware/static.rb:120:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+   () Users/brianaeng/.rvm/gems/ruby-2.3.1@global/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /Users/brianaeng/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/brianaeng/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/brianaeng/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/3f8135d44605779c/variables" for ::1 at 2016-10-31 13:52:51 -0700
+
+
+Started GET "/" for ::1 at 2016-10-31 13:56:54 -0700
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 17194ms (Views: 16223.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_settings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation_and_overrides.self-fee5ebcaebb6700584dbbfe470d672c0ea0373f76c51a39a7d9113985d26501a.css?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/homepages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.core.self-5ed6ae130919ff28bddc99eeb4be8985572bbe9b5f0b1ba1bc6afc599780cebb.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.abide.self-433e642defac6b495106bcaa7f2a33c07efc1dad4c3970721631af8a2b52affc.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.accordion.self-74319d8fb502eb290aeb24e5faa73fcaaf37eae2d7900078f340f0b24935730a.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.accordionMenu.self-e689c1884b4ff0c1954861fd62d4731ee547815641354364558281ba1c1f6e60.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.drilldown.self-90f2ea486ef245e95194cd7b3aa3c03f646920688d3f3da4ac9307a1ba218fd6.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.dropdown.self-9c145c2f5fc3a177fc41227f741c20dbb83e12e6ab9b3dc4d43ca29e5405b701.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.dropdownMenu.self-ad8b1b4094eeef0662f6bc2626fce4dbdbcd378208a40d581a69173f69cf9416.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.equalizer.self-a50f50dcba868d8fa943fbff15ebbf4cc4379642743eb66e01700817f1d9a22d.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.offcanvas.self-cf7da0443dc19b13c7142a0dbe858c9345298ba3c74c18fd45c32b8e6a36891d.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.magellan.self-7f76db4c0535c95ec2987c59e161dbb0d95797e6472be23b256ed839f9ffbb3e.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.interchange.self-07189eb841f19152efe7b88e50292d9c099a53a4915af9020cf5eea06a8016ec.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.orbit.self-8b50fe52746c0bbfdfdd344a7dbd1a26aa712d39b0aa95725ef3f207f999115d.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.responsiveMenu.self-04daa3af5d3c617fa7d588b45b56abd62539f5fde28756c7b4705de2aa10c4fd.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.reveal.self-249f251973a73a8fb50acefd10e382278024146355b39e47ce1934dd64df09d7.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.responsiveToggle.self-15d27e3276f2100adb158282147ff40f7fc86c37419100d6101c600d2e4df01d.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.slider.self-e5558a2d21fad44bba147be2d729ed96f984229d05f6d5550eb1c0c20b974f90.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.sticky.self-0b1d0a23ec6c183dfc64272e91d5450ee95821d7573f1fe7397dc810f3cd6926.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.toggler.self-e503f9a635124ad4578a03dc24e47ac4cdb922a60bac8c9c99d024da00b0bd52.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.tabs.self-2e641c12d280fc8c560d070d5caf1e97560e035f955335b1244fa0ee0bb7291c.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.tooltip.self-8d4d19184b9c2c60eec1cb32096180b09fd0d1bae8bd5bf8674c34187914943d.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.util.keyboard.self-9ddfc95ccf73ddc51ead522151b53198b30c6a400e9f3f0be725d55c30f01912.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.util.box.self-d575050eeb81d250e2a588d115b437fd2519a50712e1dce1766be2d87c5c7771.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.util.mediaQuery.self-a84e048af5284ea81753b0d6b2d3bd8fb37c06084a37c7cb91bde285e3634c52.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.util.motion.self-13d4248460aba53c0fd52e1ec0d5cb41c317b1c4d974bc5d905c9976dc9ef218.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.util.timerAndImageLoader.self-79e11d64a4f9336021e9ff10bdc178973516badb1d919695d1ed56595b69c072.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.util.nest.self-4135250cfc78d23e55f714f091d937a962ee8728df21e8c6c8f78fb1a4bae0b0.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.util.touch.self-95e098450fe69653246bdfa7f1e7fe7dba15348524771d7b2c54c7c4298fccb5.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.util.triggers.self-d40e6f5817093dcf4732709f7dad2922cd74945c353c32a1e22f66da25d9d3f1.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/foundation.self-5ecf2f4d83e6260dabd6ec48e76d8ddebccf956563f34072221bf960d3b8c255.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/homepages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/assets/application.self-79a300d240bbf145c9af961805bc87f18e9f73bd1cda275895295c80d8552d3f.js?body=1" for ::1 at 2016-10-31 13:57:12 -0700
+
+
+Started GET "/" for ::1 at 2016-10-31 14:01:27 -0700
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 413ms (Views: 116.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/ada-announcements.C14UN1PV2" for ::1 at 2016-10-31 14:01:29 -0700
+Processing by HomepagesController#new as 
+  Parameters: {"id"=>"ada-announcements"}
+  Rendered homepages/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 100ms (Views: 99.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-31 14:01:45 -0700
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 355ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/general.C14HT63S7" for ::1 at 2016-10-31 14:01:49 -0700
+Processing by HomepagesController#new as 
+  Parameters: {"id"=>"general"}
+  Rendered homepages/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 87ms (Views: 86.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/general.C14HT63S7" for ::1 at 2016-10-31 14:03:09 -0700
+Processing by HomepagesController#new as 
+  Parameters: {"id"=>"general"}
+  Rendered homepages/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 91ms (Views: 90.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-31 14:03:34 -0700
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 424ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/ada-announcements.C14UN1PV2" for ::1 at 2016-10-31 14:03:36 -0700
+Processing by HomepagesController#new as 
+  Parameters: {"id"=>"ada-announcements"}
+  Rendered homepages/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 78ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-31 14:05:02 -0700
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 842ms (Views: 84.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/ada-announcements/C14UN1PV2" for ::1 at 2016-10-31 14:05:05 -0700
+Processing by HomepagesController#new as HTML
+  Parameters: {"id"=>"ada-announcements", "name"=>"C14UN1PV2"}
+  Rendered homepages/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 90ms (Views: 89.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/ada-announcements/C14UN1PV2" for ::1 at 2016-10-31 14:05:30 -0700
+Processing by HomepagesController#new as HTML
+  Parameters: {"id"=>"ada-announcements", "name"=>"C14UN1PV2"}
+  Rendered homepages/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 112ms (Views: 111.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-31 14:06:27 -0700
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 805ms (Views: 95.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/general/C14HT63S7" for ::1 at 2016-10-31 14:06:32 -0700
+Processing by HomepagesController#new as HTML
+  Parameters: {"id"=>"general", "name"=>"C14HT63S7"}
+  Rendered homepages/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 85ms (Views: 84.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/general/C14HT63S7" for ::1 at 2016-10-31 14:06:46 -0700
+Processing by HomepagesController#new as HTML
+  Parameters: {"id"=>"general", "name"=>"C14HT63S7"}
+  Rendered homepages/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 94ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/test-api-parens/C2V4F5W1Y" for ::1 at 2016-10-31 14:07:02 -0700
+Processing by HomepagesController#new as HTML
+  Parameters: {"id"=>"test-api-parens", "name"=>"C2V4F5W1Y"}
+  Rendered homepages/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 78ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-31 14:07:53 -0700
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1165ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/test-api-parens/C2V4F5W1Y" for ::1 at 2016-10-31 14:07:56 -0700
+Processing by HomepagesController#new as HTML
+  Parameters: {"name"=>"test-api-parens", "id"=>"C2V4F5W1Y"}
+  Rendered homepages/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 76ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-31 14:11:29 -0700
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1750ms (Views: 84.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/test-api-parens/C2V4F5W1Y" for ::1 at 2016-10-31 14:11:33 -0700
+Processing by HomepagesController#new as HTML
+  Parameters: {"name"=>"test-api-parens", "id"=>"C2V4F5W1Y"}
+  Rendered homepages/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 96ms (Views: 95.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create" for ::1 at 2016-10-31 14:11:47 -0700
+Processing by HomepagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0C9PklSGjsn2+/IhpmdjfvVEX1XHhQRf6gxKKXQfdbblrfSEcO+3Vl4LZImE1oQNddP1I5n/w4NqgHCLRZKo3g==", "message"=>"what is happening", "channel"=>"C2V4F5W1Y", "commit"=>"Send Message"}
+  Rendered homepages/create.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 496ms (Views: 102.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-31 14:11:51 -0700
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 357ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/test-api-parens/C2V4F5W1Y" for ::1 at 2016-10-31 14:12:43 -0700
+Processing by HomepagesController#new as HTML
+  Parameters: {"name"=>"test-api-parens", "id"=>"C2V4F5W1Y"}
+  Rendered homepages/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 87ms (Views: 86.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create" for ::1 at 2016-10-31 14:13:59 -0700
+Processing by HomepagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4ytfPxZ/hy9VvEQSfEmVTau4FHnt7zpOoalBt5VODFzWqeQpMha+sP1M0rpe+HI+Ky++D7OV/ZIhJXsVpMPRNA==", "message"=>"NO MY MESSAGE", "channel"=>"C2V4F5W1Y", "commit"=>"Send Message"}
+  Rendered homepages/create.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 469ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-31 14:14:02 -0700
+Processing by HomepagesController#index as HTML
+  Rendered homepages/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 362ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+

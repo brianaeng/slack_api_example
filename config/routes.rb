@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  get 'homepages/index'
+  root to: 'homepages#index'
 
-  get 'homepages/new'
+  get '/new/:name/:id' => 'homepages#new', as: 'new_message' #:id is for channel id, what channel you want to put the new message in
 
-  get 'homepages/create'
+  post '/create' => 'homepages#create', as: 'create_message'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
