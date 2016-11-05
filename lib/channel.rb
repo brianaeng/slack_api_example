@@ -3,6 +3,11 @@ class Slack_Channel
   attr_reader :name, :id, :purpose, :is_archived, :members
 
   def initialize(name, id, options = {} )
+
+    if name == nil || id == nil || name == "" || id == ""
+      raise ArgumentError
+    end
+    
     @name = name
     @id = id
 

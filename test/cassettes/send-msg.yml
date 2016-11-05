@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=TOKEN
+    body:
+      encoding: UTF-8
+      string: text=This%20is%20a%20test%20case%21&channel=test-api-parens&username=CheezItBot&icon_url=https%3A%2F%2Favatars.slack-edge.com%2F2016-06-01%2F47243492547_e3bd80a93a62bd63b8e6_72.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '328'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:22:30 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 1570cabe-a2a2-4229-99ce-fa1aa942599d
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 c743f1ce1ce65e454843328ae4e050a2.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - yf-qeRJ_-iLQQSZhN1b-LeF2DlDpjXQf-3sGIY6BkGfluKIqMP0Alw==
+    body:
+      encoding: UTF-8
+      string: '{"ok":true,"channel":"C2V4F5W1Y","ts":"1478020950.000650","message":{"text":"This
+        is a test case!","username":"CheezItBot","icons":{"image_48":"https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2016-10-27\/97403587554_48.png"},"bot_id":"B2WDWGY8M","type":"message","subtype":"bot_message","ts":"1478020950.000650"}}'
+    http_version:
+  recorded_at: Tue, 01 Nov 2016 17:22:30 GMT
+recorded_with: VCR 3.0.3

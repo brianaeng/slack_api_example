@@ -1,0 +1,113 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://slack.com/api/channels.list?exclude_archived=1&pretty=1&token=bad-token
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '62'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:17:49 GMT
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - a31fc5a4-6ec1-4d30-9f39-5e91cf202377
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 f8a7fe4c61e96031422b26def0e2d6cf.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - Z0rHbqEBvr_zbsbN62wq7UwOxn_AtA-gMIeuIEQvHruEkiHWIwgk2A==
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+            "ok": false,
+            "error": "invalid_auth"
+        }
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:17:49 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=12345
+    body:
+      encoding: UTF-8
+      string: text=Failed%20message%21&channel=test-api-parens&username=CheezItBot&icon_url=https%3A%2F%2Favatars.slack-edge.com%2F2016-06-01%2F47243492547_e3bd80a93a62bd63b8e6_72.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '35'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:59:08 GMT
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - a27d5d5a-d9a7-406f-8550-6350502008ad
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 6b7df0b7d452d19dfadbdc5af607a26e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - bxSM64Jj8abVzRSGYGTCLk2IJOVwem2nssxelqH0SKBt7cMoCYpt0g==
+    body:
+      encoding: UTF-8
+      string: '{"ok":false,"error":"invalid_auth"}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:59:08 GMT
+recorded_with: VCR 3.0.3
